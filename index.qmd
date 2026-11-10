@@ -27,8 +27,8 @@ format:
     }
 
     .profile-pic {
-        width: 400px;
-        height: 400px;
+        width: 300px;
+        height: 300px;
         border-radius: 50%;
         object-fit: cover;
         border: 3px solid white;
@@ -108,34 +108,33 @@ ALONGate
 :::
 
 ```{r}
+#| output: false
+#| echo: false
+library(tidyverse)
+```
+
+```{r}
 #| message: false
 #| output: asis
 #| warning: false
 #| echo: false
 
-parse_link <- function(thumb, text) {
-    sprintf("[ ![](%s){.btn-thumb} [%s]{.btn-text}](article-intro.qmd){.link-btn}", thumb, text)
+parse_link <- function(thumb, text, url) {
+    sprintf("[ ![](%s){.btn-thumb} [%s]{.btn-text}](%s){.link-btn}", thumb, text, url)
 }
 
 thumbs <- c(
-    "assets/img/_ZPA2002.jpg",
-    "assets/img/_ZPA2002.jpg",
-    "assets/img/_ZPA2002.jpg",
-    "assets/img/_ZPA2002.jpg",
-    "assets/img/_ZPA2002.jpg",
     "assets/img/_ZPA2002.jpg"
 )
 
-texts <- c(
-    "Background & Aim",
-    "BLOS",
-    "Cruises",
-    "The Macrofauna",
-    "The Team",
-    "Collaborations"
+url <- c(
+    "chapter/deepseaisopods.qmd"
 )
 
-md.parsed <- purrr::map2_chr(thumbs, texts, ~parse_link(.x, .y))
+md.parsed <- purrr::pmap(list(thumbs, url), \(x, y){
+    text <- zhutilsr::read_md_frontmatter(url) %>% str_match("\\\"(.*?)\\\"") %>% .[1,2]
+    parse_link(x, text, y)
+})
 
 cat(paste(md.parsed, collapse = "\n\n"))
 ```
@@ -153,7 +152,7 @@ cat(paste(md.parsed, collapse = "\n\n"))
     text-align: center;    /* Aligns text to the right */
 ">
 <p style="margin: 0; font-size: 0.7rem;">
-    Site built with Quarto by <a href="https://zzzhehao.github.io/" style="color: inherit; text-decoration: underline;">Zhehao Hu</a>. 
+    Site built with Quarto by <a href="https://zzzhehao.github.io/" style="color: inherit; text-decoration: underline;">Zhehao Hu</a>. <br>
     Source code available at <a href="https://github.com/zzzhehao/ALONGate_2026_WCMB" style="color: inherit; text-decoration: underline;">github.com</a>.
 </p>
 </footer>
