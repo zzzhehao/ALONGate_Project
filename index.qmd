@@ -2,7 +2,8 @@
 title: ""
 format:
   html:
-    page-layout: custom       
+    page-layout: custom   
+    theme: default    
 ---
 
 ```{=html}

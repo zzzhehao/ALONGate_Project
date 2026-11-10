@@ -10,7 +10,7 @@ format:
     theme: 
       dark: [theme/dark.scss]
       light: [theme/light.scss]
-    # css: styles.css
+    css: styles.css
     toc: true
 
 affiliations:
