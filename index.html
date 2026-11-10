@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>ALONGate_2026_WCMB</title>
+<title>ALONGate</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,11 +24,13 @@ ul.task-list li input[type="checkbox"] {
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./assets/logo/MSM145_transparent.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -37,13 +39,13 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-57a92833092fd6dc0d7710b6bdfff9c5.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-1e7ea95314229731f3613291723edc41.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-8c3babc857b20ed7fdd047e69b08a70c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "sidebar",
+  "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
-  "panel-placement": "start",
-  "type": "textbox",
+  "panel-placement": "end",
+  "type": "overlay",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
@@ -67,7 +69,6 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -82,7 +83,47 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+<!-- looping video background -->
+<!-- <video autoplay loop muted playsinline class="bg-video">
+    <source src="./assets/resources/website_carousel.mov" type="video/mp4">
+</video> -->
+
 <style>
+    /* looping video background start */
+    /* .bg-video {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        z-index: -2;
+    }
+
+    body::before {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: linear-gradient(rgba(51, 51, 51, 0.5), rgba(51, 51, 51, 0.5));
+        z-index: -1;
+    }
+
+    body {
+        background: transparent !important;
+        font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        color: white !important;
+        margin: 0;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    } */
+    /* looping video background end */
+
+    /* static image background start */
     body {
         background: linear-gradient(rgba(51, 51, 51, 0.5), rgba(51, 51, 51, 0.5)), url("./assets/img/_ZPA2002.jpg") no-repeat center center fixed;
         background-size: cover;
@@ -94,6 +135,7 @@ ul.task-list li input[type="checkbox"] {
         justify-content: center;
         align-items: flex-start;
     }
+    /* static image background end */
 
     .linktree-container {
         width: 100%;
@@ -165,6 +207,50 @@ ul.task-list li input[type="checkbox"] {
         margin-right: 20px; /* Space between image and text */
         flex-shrink: 0; /* Prevents the image from shrinking if text is long */
     }
+
+    /* partner logo */
+    .partners-container {
+        width: 100%;
+        max-width: 650px;
+        display: flex;
+        flex-wrap: wrap; /* Automatically pushes logos to a new row if they run out of space */
+        justify-content: center;
+        align-items: center;
+        gap: 20px; /* Space between logos and rows */
+        margin-top: 20px; 
+        margin-bottom: 40px;
+        padding-top: 30px;
+        /* border-top: 1px solid rgba(255, 255, 255, 0.2); /* Subtle divider above logos */ 
+    }
+
+    .partner-link {
+        display: inline-block;
+        transition: transform 0.3s ease;
+    }
+
+    .partner-link:hover {
+        transform: scale(1.05); /* Slight pop effect on hover */
+    }
+
+    .partner-img {
+        /* Set your desired min and max heights here */
+        min-height: 35px;
+        max-height: 55px; 
+        width: auto;
+        object-fit: contain;
+        opacity: 0.9;
+        transition: opacity 0.3s ease;
+    }
+
+    .partner-link:hover .partner-img {
+        opacity: 1;
+    }
+
+    .ctext-container {
+        width: 100%;
+        max-width: 450px;
+        text-align: center;
+    }
 </style>
 <p><br><br><br></p>
 <div class="linktree-container">
@@ -176,7 +262,20 @@ ul.task-list li input[type="checkbox"] {
 <div class="project-desc">
 <p><u><strong>A</strong></u> <u><strong>L</strong></u>ongterm <u><strong>O</strong></u>bservatory of the <u><strong>N</strong></u>orth Atlantic <u><strong>Gate</strong></u>way to the Arctic</p>
 </div>
-<p><a href="./chapter/new-old-isopods.html" class="link-btn"><img src="assets/img/_ZPA2002.jpg" class="btn-thumb img-fluid"> <span class="btn-text">New and Old Isopods</span></a></p>
+<p><a href="./chapter/new-old-isopods.html" class="link-btn"><img src="assets/img/Disconectes Coxalis_19122_f_V_300925.webp" class="btn-thumb img-fluid"> <span class="btn-text">New and Old Isopods</span></a></p>
+</div>
+<div class="ctext-container">
+<p>This project is supported by:</p>
+</div>
+<div class="partners-container">
+<p><a href="https://www.senckenberg.de/" class="partner-link"><img src="assets/logo/senckenberg.png" class="partner-img img-fluid"></a></p>
+</div>
+<div class="ctext-container">
+<p>Collaboration partners:</p>
+</div>
+<div class="partners-container">
+<p><a href="https://www.geomar.de" class="partner-link"><img src="assets/logo/geomar.png" class="partner-img img-fluid"></a></p>
+<p><a href="https://www.hafogvatn.is/en/" class="partner-link"><img src="assets/logo/mfri_white.webp" class="partner-img img-fluid"></a></p>
 </div>
 <footer style="
     margin-top: 10px;     /* Space between the last button and the footer */
@@ -286,7 +385,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/zzzhehao\.github\.io\/ALONGate_2026_WCMB\/");
+      var filterRegex = new RegExp("https:\/\/zzzhehao\.github\.io\/ALONGate_Project");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
