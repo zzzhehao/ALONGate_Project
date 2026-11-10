@@ -6,9 +6,20 @@ website:
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    highlight-style: atom-one-dark
+    theme: 
+      dark: [theme/dark.scss]
+      light: [theme/light.scss]
+    # css: styles.css
     toc: true
 
-
-
+affiliations:
+  - id: UHH
+    name: University of Hamburg
+    url: https://www.biologie.uni-hamburg.de/en/einrichtungen/imf.html
+  - id: DZMB
+    name: Benthic Biogeography, DZMB, Senckenberg am Meer
+    url: https://www.senckenberg.de/en/research/institutes-overview/sam/dzmb/sam-dzmb-sec-benthic-biogeography/
+  - id: AWI
+    name: Alfred-Wegner-Institue (AWI)
+    url: https://www.awi.de/en/

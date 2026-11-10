@@ -128,7 +128,7 @@ thumbs <- c(
 )
 
 url <- c(
-    "chapter/deepseaisopods.qmd"
+    "chapter/new-old-isopods.qmd"
 )
 
 md.parsed <- purrr::pmap(list(thumbs, url), \(x, y){

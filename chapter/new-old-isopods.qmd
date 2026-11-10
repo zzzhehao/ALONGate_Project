@@ -1,8 +1,12 @@
 ---
 title: "New and Old Isopods"
-author: 
-- Katharina Kohlenbach
-- Zhehao Hu
+authors: 
+  - name: Katharina Kohlenbach
+    affiliations:
+      - ref: AWI
+  - name: Zhehao Hu
+    affiliations:
+      - ref: DZMB
 ---
 
 ## New speices under a new genus
