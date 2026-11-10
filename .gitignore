@@ -1,3 +1,6 @@
+# Project specific
+script/poster/*
+
 data/*
 
 *.code-workspace
