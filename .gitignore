@@ -1,5 +1,6 @@
 # Project specific
 script/poster/*
+assets/resources/*
 
 data/*
 
