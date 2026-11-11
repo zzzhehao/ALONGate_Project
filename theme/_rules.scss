@@ -60,9 +60,13 @@ a {
 
 .figure {
     padding-top: 1.6em;
-    padding-bottom: 1.5em;
+    padding-bottom: 0.5em;
     margin: auto;
     text-align: center;
+}
+
+.quarto-figure {
+    margin-bottom: 0.5em;
 }
 
 figure figcaption {

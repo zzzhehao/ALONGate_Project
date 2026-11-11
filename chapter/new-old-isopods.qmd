@@ -25,12 +25,12 @@ _Disconectes coxalis_ was officially described by Kussakin in 1983, but the type
 
 Although being sampled in the central Arctic Ocean, this species has not been found elsewhere, particularly at the Hausgarten LTER in the Fram Strait, which represents the only deep channel connecting Arctic Ocean with other Ocean sectors. Based on this, _D. coxalis_ are suggested to be endemic in the Arctic. 
 
-::: {#fig-dcoxalis layout-ncol=2}
+::: {layout-ncol=2}
 
 ![Lateral view](/assets/img/Disconectes%20Coxalis_19122_f_L_300925.webp)
 
 ![Ventral view](/assets/img/Disconectes%20Coxalis_19122_f_V_300925.webp)
 
-CLSM scans of _D. coxalis_ (Kohlenbach et al., _in prep_)
-
 :::
+
+<figcaption style="text-align: center; margin-top: -10px;">CLSM scans of _D. coxalis_ (Kohlenbach et al., _in prep_)</figcaption>
