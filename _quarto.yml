@@ -2,7 +2,30 @@ project:
   type: website
 
 website:
-  title: "ALONGate_2026_WCMB"
+  title: "ALONGate"
+  favicon: "assets/logo/MSM145_transparent.png"
+  site-url: https://zzzhehao.github.io/ALONGate_Project
+  site-path: ./
+  description: "ALONGate Project: WCMB 2026"
+  draft-mode: unlinked
+
+  navbar: 
+    logo: "assets/logo/MSM145_transparent.png"
+    left: 
+      - text: "Research"
+        menu: 
+          - text: "New and Old Isopods"
+            href: chapter/new-old-isopods.qmd
+      - text: "Project"
+        menu:
+          - text: "Vision"
+          - text: "Team"
+      - text: "Impact"
+        menu:
+          - text: "Workshops"
+          - text: "Collaborations"
+    search: true
+    background: transparent
 
 format:
   html:
@@ -10,7 +33,6 @@ format:
     theme: 
       dark: [theme/dark.scss]
       light: [theme/light.scss]
-    css: styles.css
     toc: true
 
 affiliations:
@@ -23,3 +45,4 @@ affiliations:
   - id: AWI
     name: Alfred-Wegner-Institue (AWI)
     url: https://www.awi.de/en/
+

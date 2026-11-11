@@ -226,7 +226,7 @@ table {
     background-color: var(--bg-body) !important;
     font-weight: var(--fw-medium);
     font-size: var(--fs-nav);
-    color: var(--text-main);
+    color: var(--text-main) !important;
 }
 
 .dropdown-menu {
@@ -261,6 +261,19 @@ table {
     .dropdown-menu {
         max-width: 300px;
     }
+}
+
+.navbar-logo {
+    margin: 0 !important;
+    display: inline-block !important;
+    border-radius: 0 !important;
+    max-height: 50px !important;
+    padding-right: 1rem;
+}
+
+.navbar-title {
+    font-weight: var(--fw-bold);
+    font-size: 1.5rem;
 }
 
 // ==================================================
@@ -514,6 +527,10 @@ div.listing-category {
     }
 }
 
+// ==================================================
+// 9. Article page
+// ==================================================
+
 /* Target all affiliations EXCEPT the first one */
 .quarto-title-meta-contents p.affiliation:not(:first-child) {
     /* Pull subsequent lines up to close the gap from the first line's default bottom margin */
@@ -526,3 +543,7 @@ div.listing-category {
 .quarto-title-meta-contents p.affiliation:last-child {
     margin-bottom: 1rem;
 }
+
+// ==================================================
+
+// ==================================================
