@@ -233,7 +233,7 @@ format:
 ::: {.linktree-container}
 
 <!-- Replace 'logo.png' with your actual project logo or a nice icon -->
-![](assets/logo/MSM145_transparent.png){.profile-pic}
+![](assets/logo/MSM145_transparent_light.png){.profile-pic}
 
 ::: {.project-title}
 ALONGate
@@ -261,6 +261,23 @@ parse_links <- function(pmap_list) {
 }
 ```
 
+```{r}
+#| message: false
+#| output: asis
+#| warning: false
+#| echo: false
+# relative path to qmd file
+url.project <- c(
+    "chapter/research/kohlenbach-talk.qmd"
+)
+
+# thumbnails
+thumbs.project <- c(
+    "assets/img/MSM_drone.webp"
+)
+
+cat(paste(parse_links(list(thumbs.project, url.project)), collapse = "\n\n"))
+```
 
 ::: {.ctext-container-subtitle}
 Project

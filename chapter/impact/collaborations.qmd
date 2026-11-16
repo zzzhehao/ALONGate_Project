@@ -24,3 +24,5 @@ header_image(height_headerimage = 400, y_transform = 10) # fixing header image
 ```
 
 ## ALONGate 1
+
+{{< include /partial/_footer.qmd >}}

@@ -1,0 +1,17 @@
+---
+pagetitle: "Maik Wilsenack"
+name_first: Maik
+name_last: Wilsenack
+name_title: ""
+affiliation:
+  - name: "German Centre for Marine Biodiversity Research (DZMB), Senckenberg am Meer"
+    url: "https://www.senckenberg.de/en/research/institutes-overview/sam/dzmb/"
+positiion: "Electronic Engineering"
+description_short: "BLOS Design & Engineer"
+profile_picture: "/assets/profile/maik_wilsenack.jpg"
+profile_picture_credit: ""
+---
+
+{{< include /partial/_team_template.qmd >}}
+
+{{< include /partial/_footer.qmd >}}

@@ -12,15 +12,16 @@ project:
 
 website:
   title: "ALONGate"
-  favicon: "assets/logo/MSM145_transparent.png"
   site-url: https://zzzhehao.github.io/ALONGate_Project
   site-path: ./
   description: "ALONGate Project: WCMB 2026"
   draft-mode: unlinked
 
   navbar: 
-    logo: "assets/logo/MSM145_transparent.png"
+    # logo: "assets/logo/MSM145_transparent.png"
     left: 
+      - text: "Our WCMB Talk"
+        href: chapter/research/kohlenbach-talk.qmd
       - text: "Project"
         menu:
           - text: "Vision"
@@ -31,8 +32,6 @@ website:
             href: chapter/project/expeditions.qmd
       - text: "Research"
         menu: 
-          - text: "WCMB Talk (Kohlenbach)"
-            href: chapter/research/kohlenbach-talk.qmd
           - text: "Benthic Lander Observatory System"
             href: chapter/research/blos.qmd
           - text: "Benthic Survey"
@@ -52,10 +51,11 @@ website:
 
 format:
   html:
+    include-in-header: theme/favicon.html
     highlight-style: atom-one-dark
     theme: 
-      dark: [theme/dark.scss]
       light: [theme/light.scss]
+      dark: [theme/dark.scss]
     toc: true
 
 affiliations:

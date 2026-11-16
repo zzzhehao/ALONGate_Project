@@ -1,10 +1,9 @@
 ---
 title: "A Long-term Observatory on the Seafloor"
 menutitle: "Benthic Lander Observatory System"
-# params:
-#   editor:
-#     - name: Zhehao Hu
-#     - name: Hauke Pape
+page_editors:
+  - name: Hauke Pape
+  - name: Zhehao Hu
 ---
 
 BLOS, stands for **Benthic Lander Observatory System**, is a customized system designed for data collection on the seafloor for a long period of time. Currently, three of such systems have been successfully deployed around Iceland during the MSM145 expedition in 2026. 
@@ -32,7 +31,6 @@ leaflet(data = blospos, height = "550px", width = "100%") %>%
   )
 ```
 
-
 ## How are they built?
 
 The conceptual design of our BLOS is based on the landers originally constructed by [IFREMER](https://www.ifremer.fr/fr). The physical structure consists of stainless steel frames to mount the individual components, including the camera, energy modules, the communication and storage systems. To ensure stable deployment and long-term durability in the extreme deep-sea environment, the equipment housings are constructed from titanium, a material known for its high resistance to immense pressure and saltwater corrosion. Once deployed, the system operates autonomously, programmed to record between 60 and 160 seconds of video every 12 hours. This continuous monitoring cycle will be carried out for an entire year until the next visit to retrieve the data. 
@@ -51,3 +49,4 @@ The ROV and the BLOS each hold a Wi-Fi module that allows real-time data transmi
 insert_roulette("chapter/research/blos.yaml", "blos-2")
 ```
 
+{{< include /partial/_footer.qmd >}}

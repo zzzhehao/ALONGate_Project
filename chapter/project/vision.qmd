@@ -18,3 +18,5 @@ Since 2023, annual Epibenthic Sledge (EBS) sampling in the HAUSGARTEN long-term 
 In-situ sampling of latitudinal and longitudinal deep-sea transects throughout the Gateway area is complemented with the deployment of long-term Benthic Lander Observatory Systems (BLOS) at critical intersecting nodes of the North-South and East-West transects, with a special focus on collecting image data of Vulnerable Marine Ecosystems (VMEs) like hydrothermal vents or cold-water coral (CWC) reefs across seasonal changes.
 
 Based on the compiled dataset of abiotic (bathymetric assessments, benthic oxygen uptake measurements, sediment samples) and biotic parameters (macrofauna samples, image data), a comprehensive comparison of macro- and megafauna community will contribute to a better understanding of benthic biodiversity and its driving parameters.
+
+{{< include /partial/_footer.qmd >}}

@@ -1,0 +1,15 @@
+{
+  "hash": "ca66aa2a78309ea5296200c5d840f2dc",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Expeditions\"\nmenutitle: \"Expeditions\"\n---\n\n\n\n\nIn total of 7 expeditions have gone underway since 2023 under the ALONGate project:\n\n- PS148 (2025) HAUSGARTEN LTER, Polarstern\n- PS155 (2026) HAUSGARTEN LTER, Polarstern\n- MSM145 (2026) Circum-Iceland, deployment of three BLOS at natural coral reef, artificial reef at fishing closure area, and at hydrothermal vent\n\nMore are coming in the future\n\n- 2027: recover and re-deployment of the BLOS around iceland\n- 2028: benthic sampling of the southern transect \n\n\n\n\n::: {.cell}\n\n:::\n\n<hr>\n\n[&#8592; Back](../../index.qmd){.btn .btn-outline-primary role='button'}\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

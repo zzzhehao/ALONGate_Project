@@ -163,4 +163,4 @@ team_cards <- map2(frontmatter.ls, path.team.sorted, function(person, path) {
 div(class = "team-grid", team_cards)
 ```
 
-
+{{< include /partial/_footer.qmd >}}

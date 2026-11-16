@@ -12,4 +12,6 @@ profile_picture: "/assets/profile/lilian_boehringer.jpg"
 profile_picture_credit: ""
 ---
 
-{{< include /chapter/project/team/_team_template.qmd >}}
+{{< include /partial/_team_template.qmd >}}
+
+{{< include /partial/_footer.qmd >}}

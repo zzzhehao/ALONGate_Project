@@ -1,6 +1,6 @@
 blos-1:
   images:
-    - title: Our engineers Maik (right) and Hauke (left) assemblying BLOS onboard
+    - title: Our engineers Maik (left) and Hauke (right) assemblying BLOS onboard
       url: ../../assets/img/maik_hauke_blos.webp
     - title: BLOS testing its lighting configuration in front of an artificial coral reef
       url: ../../assets/img/blos_infrontof_artreef.webp
@@ -13,5 +13,5 @@ blos-2:
       url: ../../assets/img/phoca_deployment.webp
     - title: Scientists sitting in the mission control to watch the deployment of BLOS
       url: ../../assets/img/confroom.webp
-    - title: An illustration of the Wi-Fi modules
-      url: ../../assets/img/blos_wifi_scheme.png
+    - title: Wi-Fi module visible from side view of the ROV
+      url: ../../assets/img/wifi_rov.jpg

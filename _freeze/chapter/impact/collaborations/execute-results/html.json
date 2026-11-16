@@ -1,8 +1,8 @@
 {
-  "hash": "5f03af539ef663f04e486aaca6f98f60",
+  "hash": "9c606dce93dc592153dd9f470631c402",
   "result": {
     "engine": "knitr",
-    "markdown": "---\ntitle: \"Collaboations\"\nmenutitle: \"Collaboations\"\n# format:\n#   html:\n#     include-before-body: \n#       - text: |\n#           <div id=\"header-image\">\n#             <img src=\"/assets/img/ocisopod-_ZZ87432-ZH.webp\" alt=\"Header Image\" width=\"100%\">\n#           </div>\n---\n\n::: {.cell}\n\n:::\n\n\n```{=html}\n<style>\n    #header-image {\n        position: absolute;\n        top: 0;\n        left: 0;\n        width: 100%;\n        height: 400px;\n        overflow: hidden;\n        z-index: 1;\n    }\n\n    #header-image img {\n        width: 100%;\n        height: 100%;\n        object-fit: cover;\n        position: absolute;\n        top: 0;\n        left: 0;\n        transform: translateY(10%);\n    }\n\n    #quarto-content {\n        margin-top: 350px;\n    }\n</style>\n```\n\n\n\n\n## ALONGate 1",
+    "markdown": "---\ntitle: \"Collaboations\"\nmenutitle: \"Collaboations\"\n# format:\n#   html:\n#     include-before-body: \n#       - text: |\n#           <div id=\"header-image\">\n#             <img src=\"/assets/img/ocisopod-_ZZ87432-ZH.webp\" alt=\"Header Image\" width=\"100%\">\n#           </div>\n---\n\n::: {.cell}\n\n:::\n\n\n```{=html}\n<style>\n    #header-image {\n        position: absolute;\n        top: 0;\n        left: 0;\n        width: 100%;\n        height: 400px;\n        overflow: hidden;\n        z-index: 1;\n    }\n\n    #header-image img {\n        width: 100%;\n        height: 100%;\n        object-fit: cover;\n        position: absolute;\n        top: 0;\n        left: 0;\n        transform: translateY(10%);\n    }\n\n    #quarto-content {\n        margin-top: 350px;\n    }\n</style>\n```\n\n\n\n\n## ALONGate 1\n\n\n\n\n::: {.cell}\n\n:::\n\n<hr>\n\n[&#8592; Back](../../index.qmd){.btn .btn-outline-primary role='button'}\n",
     "supporting": [],
     "filters": [
       "rmarkdown/pagebreak.lua"

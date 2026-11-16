@@ -35,3 +35,6 @@ header_image(height_headerimage = 400, y_transform = 10) # fixing header image
 
 
 [More than 100 isopods identified (Ocean Census)](https://oceancensus.org/streamlining-species-discovery-more-than-100-isopods-identified-in-just-two-weeks/)
+
+
+{{< include /partial/_footer.qmd >}}

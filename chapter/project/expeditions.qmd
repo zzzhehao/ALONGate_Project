@@ -5,8 +5,8 @@ menutitle: "Expeditions"
 
 In total of 7 expeditions have gone underway since 2023 under the ALONGate project:
 
-- PS148 (2025) Hausgarten LTER, Polarstern
-- PS155 (2026) Hausgarten LTER, Polarstern
+- PS148 (2025) HAUSGARTEN LTER, Polarstern
+- PS155 (2026) HAUSGARTEN LTER, Polarstern
 - MSM145 (2026) Circum-Iceland, deployment of three BLOS at natural coral reef, artificial reef at fishing closure area, and at hydrothermal vent
 
 More are coming in the future
@@ -14,3 +14,4 @@ More are coming in the future
 - 2027: recover and re-deployment of the BLOS around iceland
 - 2028: benthic sampling of the southern transect 
 
+{{< include /partial/_footer.qmd >}}

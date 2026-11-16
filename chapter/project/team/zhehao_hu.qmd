@@ -192,6 +192,7 @@ cat("\n```\n")
 ``` 
 -->
 
-{{< include /chapter/project/team/_team_template.qmd >}}
+{{< include /partial/_team_template.qmd >}}
 
-Further introduction
+{{< include /partial/_footer.qmd >}}
+

@@ -3,3 +3,4 @@ title: "Benthic Survey"
 menutitle: "Benthic Survey"
 ---
 
+{{< include /partial/_footer.qmd >}}
