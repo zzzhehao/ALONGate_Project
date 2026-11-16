@@ -72,5 +72,5 @@ affiliations:
 
 lightbox: true
 execute:
-  freeze: auto
+  freeze: true
   echo: false

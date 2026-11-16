@@ -24,7 +24,7 @@ blospos <- readr::read_delim("data/BLOS_pos.csv", delim = ",") %>% bind_cols(tib
 
 ```{r}
 #| fig-cap: "Deployed BLOS around Iceland - they are recording the seafloor as you look at this!"
-leaflet(data = blospos) %>%
+leaflet(data = blospos, height = "550px", width = "100%") %>%
   addProviderTiles(providers$Esri.OceanBasemap) %>%
   addMarkers(
     ~lon, ~lat, 
