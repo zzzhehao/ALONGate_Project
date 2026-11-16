@@ -5,9 +5,11 @@ project:
     - "*.qmd"
     - "!docs/*"
   resources: 
-    - "*"
+    - "assets/*"
     - "!assets/resources"
     - "!assets/vid"
+    - "inst/*"
+    - "theme/*"
 
 website:
   title: "ALONGate"
