@@ -36,7 +36,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
-<link href="../../assets/logo/MSM145_transparent.png" rel="icon" type="image/png">
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../../site_libs/quarto-html/scrollable-regions/scrollable-regions.js" type="module"></script>
@@ -46,10 +45,15 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-b64bf133a05c9b35a1c1b0604a81005c.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-b64bf133a05c9b35a1c1b0604a81005c.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-b64bf133a05c9b35a1c1b0604a81005c.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap-d3557baebe7cecdb42720d7c9b969968.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
 <link href="../../site_libs/bootstrap/bootstrap-dark-8bf0ae8993bcacae47a5ee4cd91398d6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-d3557baebe7cecdb42720d7c9b969968.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -77,12 +81,14 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<link rel="icon" href="../../assets/logo/MSM145_transparent_dark.png" media="(prefers-color-scheme: light)">
+<link rel="icon" href="../../assets/logo/MSM145_transparent_light.png" media="(prefers-color-scheme: dark)">
 
 
 <link rel="stylesheet" href="../../chapter/article.css">
 </head>
 
-<body class="nav-fixed quarto-dark"><a id="quarto-skip-link" class="visually-hidden-focusable" href="#quarto-document-content">Skip to main content</a><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-fixed quarto-light"><a id="quarto-skip-link" class="visually-hidden-focusable" href="#quarto-document-content">Skip to main content</a><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -231,8 +237,10 @@ ul.task-list li input[type="checkbox"] {
         changeGiscusTheme();
       }
     };
-    const authorPrefersDark = true;
+    const authorPrefersDark = false;
     const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
     let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
     // Dark / light mode switch
     window.quartoToggleColorScheme = () => {
@@ -257,10 +265,6 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark" aria-label="Site">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../assets/logo/MSM145_transparent.png" alt="" class="navbar-logo light-content">
-    <img src="../../assets/logo/MSM145_transparent.png" alt="" class="navbar-logo dark-content">
-    </a>
     <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">ALONGate</span>
     </a>
@@ -270,6 +274,10 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="../../chapter/research/kohlenbach-talk.html" aria-current="page"> 
+<span class="menu-text">Our WCMB Talk</span></a>
+  </li>  
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-project" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Project</span>
@@ -294,10 +302,6 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Research</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-research">    
-        <li>
-    <a class="dropdown-item" href="../../chapter/research/kohlenbach-talk.html">
- <span class="dropdown-text">WCMB Talk (Kohlenbach)</span></a>
-  </li>  
         <li>
     <a class="dropdown-item" href="../../chapter/research/blos.html">
  <span class="dropdown-text">Benthic Lander Observatory System</span></a>
@@ -381,15 +385,26 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Macrobenthic life in the deep central Arctic Ocean is understudied despite its importance in biogeochemical cycling of carbon and nutrients. Here we focus on the Eurasian Basin that encompasses the Nansen and Amundsen Basins separated by the Gakkel Ridge. We compare macrofauna from a total of 24 box corer samples across 17 stations (3400 – 4400 m depth) in both basins sampled with RV Polarstern in 2012 and 2023. These two years differed notably in the presence and absence of the fast-sinking sea-ice algae Melosira arctica, which was present in 2012 but not in 2023, probably due to unusual sea-ice drift patterns in 2023 that resulted in a shift of the origin of the sea ice, as well as increased open water productivity in 2012.</p>
-<p>We identified 63 taxa and as is typical, major taxonomic groups included Polychaeta followed by Bivalvia and specifically in 2023, the brooding crustaceans Isopoda, Amphipoda, Tanaidacea in the Amundsen Basin. Macrofauna density and biomass did not differ significantly between basins within one year indicating no or weak dispersal limitation by the Gakkel Ridge, consistent with previous studies. However, the population of several species sampled in 2012 consisted mostly of adults, whereas in 2023 they were made up mostly by juveniles, indicating a different status of the ecosystem despite the same time of sampling. In line with this, macrobenthic biomass was significantly lower in 2023, which is consistent with lower bacterial abundances and lower food quality, indicated by the proportion of chlorophyll a to total chloroplastic pigments. This difference was especially pronounced in the Amundsen Basin, where a concurrent decrease in macrofauna density was observed. Interestingly, Hill diversity indices were higher in 2023 compared to 2012, mostly driven by the presence of many rare species detected in 2023.</p>
-<p>Our results suggest differences in cryo-pelagic-benthic coupling between the years with impacts on benthic life. However, macrofauna diversity, density and biomass varied strongly among stations, reflecting deep-sea patchiness and the need for increased sampling efforts. Regular sampling across seasons is needed to understand potential multiyear changes as the benthos might respond slower in comparison to surface water communities.</p>
+<p>Macrobenthic life in the deep central Arctic Ocean is understudied despite its importance in biogeochemical cycling of carbon and nutrients. Here we focus on the Eurasian Basin that encompasses the Nansen and Amundsen Basins separated by the Gakkel Ridge. We compare macrofauna from a total of 24 box corer samples across 17 stations (3400 – 4400 m depth) in both basins sampled with RV Polarstern in 2012 and 2023. Over the last decades an increase in phytoplankton biomass at the shelves in the Arctic has been observed, but it is currently unknown if also the central Arctic is becoming more productive and if this potential surplus is translated at the benthos.</p>
+<p><a href="../../assets/img/ps138_plate3.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="../../assets/img/ps138_plate3.webp" class="img-fluid"></a></p>
+<p>We identified 63 taxa and, as is typical, major taxonomic groups included Polychaeta followed by Bivalvia and specifically in 2023, the brooding crustaceans Isopoda, Amphipoda, Tanaidacea in the Amundsen Basin. Macrofauna density and biomass did not differ significantly between basins or the years indicating no or weak dispersal limitation by the Gakkel Ridge, consistent with previous studies. However, the population of several species sampled in 2012 consisted mostly of adults, whereas in 2023 they were made up mostly by juveniles, indicating a different status of the ecosystem despite the same time of sampling. In 2023, lower bacterial abundances and lower food quality, indicated by the proportion of chlorophyll a to total chloroplastic pigments, was observed. This difference was especially pronounced in the Amundsen Basin, where a concurrent decrease in macrofauna biomass was observed. Interestingly, Hill diversity indices were higher in 2023 compared to 2012, mostly driven by the presence of many singleton species detected in 2023.</p>
+<p>Our results suggest differences in cryo-pelagic-benthic coupling between the years with impacts on benthic life. However, macrofauna diversity, density and biomass varied strongly among stations, reflecting deep-sea patchiness and the need for increased sampling efforts. A clear reaction of the benthos to the changing Arctic could not be observed (yet). Regular sampling across seasons is needed to understand potential multiyear changes as the benthos might respond slower in comparison to surface water communities.</p>
 <section id="want-to-know-more" class="level2">
 <h2 class="anchored" data-anchor-id="want-to-know-more">Want to Know More?</h2>
-<p>Our PhD student, Katharina Kohlenbach, will hold a presentation regarding this topic on 19.11 at 14:00, in session 2.8 (Kamermuziekzaal, Squid room):</p>
-<p><strong>A decade apart: Comparison of macrobenthos across the Nansen and Amundsen Basin in the Arctic Ocean in 2012 and 2023</strong></p>
+<p>Our PhD student, Katharina Kohlenbach, will hold a presentation about this at the World Conference for Marine Biodiversity (WCMB):</p>
+<figure class="figure">
+<figcaption class="forward">
+A decade apart: Comparison of macrobenthos across the Nansen and Amundsen Basin in the Arctic Ocean in 2012 and 2023
+</figcaption>
+</figure>
+<ul>
+<li>Time: <strong>19.11 at 14:00</strong></li>
+<li>Session: <strong>2.8</strong></li>
+<li>Venue: <strong>Kamermuziekzaal, Squid room</strong></li>
+</ul>
 <hr>
-<p>Editor: Zhehao Hu</p>
+<p><strong>Editor:</strong> Katharina Kohlenbach, Zhehao Hu</p>
+<p><a href="../../index.html" class="btn btn-outline-primary" role="button">← Back</a></p>
 
 
 </section>
@@ -920,6 +935,38 @@ ul.task-list li input[type="checkbox"] {
   window.quartoScrollableRegionsLabels = {"code":"Scrollable code","output":"Scrollable output"};
   </script>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 
