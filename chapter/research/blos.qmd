@@ -1,35 +1,52 @@
 ---
 title: "A Long-term Observatory on the Seafloor"
 menutitle: "Benthic Lander Observatory System"
+# params:
+#   editor:
+#     - name: Zhehao Hu
+#     - name: Hauke Pape
 ---
 
 BLOS, stands for **Benthic Lander Observatory System**, is a customized system designed for data collection on the seafloor for a long period of time. Currently, three of such systems have been successfully deployed around Iceland during the MSM145 expedition in 2026. 
 
-[A map with points of BLOS]
+```{r}
+#| output: false
+devtools::load_all()
+library(tidyverse)
+library(leaflet)
+
+blospos <- readr::read_delim("data/BLOS_pos.csv", delim = ",") %>% bind_cols(tibble(popup_html = c(
+    "<div style='text-align:center;'><img src='/assets/img/blos_infrontof_artreef.webp' width='250px'><br><b>Artificial Reef</b><br>Six artificial coral reefs are dropped to the seafloor in collaboration with the HFRI from Iceland. The BLOS is monitoring one of them.</div>",
+    "<div style='text-align:center;'><img src='/assets/img/blos_infrontof_coralreef.webp' width='250px'><br><b>Cold Water Coral Reef</b><br>An intact, lively cold-water coral reef is chosen as a comparison to the artificial reef site.</div>",
+    "<div style='text-align:center;'><img src='/assets/img/blos_infrontof_vent.webp' width='250px'><br><b>Hydrothermal Vent</b><br>As delicate and vulnerable marine habitats, hydrothermal vents are on the top list as our BLOS target.</div>"
+  )))
+```
+
+```{r}
+#| fig-cap: "Deployed BLOS around Iceland - they are recording the seafloor as you look at this!"
+leaflet(data = blospos) %>%
+  addProviderTiles(providers$Esri.OceanBasemap) %>%
+  addMarkers(
+    ~lon, ~lat, 
+    popup = ~popup_html
+  )
+```
+
 
 ## How are they built?
 
-- ~ 5 sentences
-- Our BLOS are built based on prototype from ...
-- (Description) Energy, camera, computer, lighting modules are assembled on a metal frame ...
-- We have made modification to ... (if any)
-- Any speciality on the housing, e.g. special material for stable deployment in the deep sea
-- Every 12 hours, the BLOS takes 60 seconds of videos, and this will be carried out for one year until the next visit. 
+The conceptual design of our BLOS is based on the landers originally constructed by [IFREMER](https://www.ifremer.fr/fr). The physical structure consists of stainless steel frames to mount the individual components, including the camera, energy modules, the communication and storage systems. To ensure stable deployment and long-term durability in the extreme deep-sea environment, the equipment housings are constructed from titanium, a material known for its high resistance to immense pressure and saltwater corrosion. Once deployed, the system operates autonomously, programmed to record between 60 and 160 seconds of video every 12 hours. This continuous monitoring cycle will be carried out for an entire year until the next visit to retrieve the data. 
 
-[Picture roulette for BLOS]
+```{r}
+insert_roulette("chapter/research/blos.yaml", "blos-1")
+```
 
 ## Deployment and Recovery
 
-**Is the Wifi module originally from us or the Ifremer has used it previously? If it's from us we need to sell this novelty.**
+Our BLOS are specifically designed for deployment and recovery using [GEOMAR's _ROV Phoca_](https://www.geomar.de/en/st/tlz/rovphoca/overview), allowing the entire system to be loaded onto the ROV's porch in one go and brought to the desired spot on the seafloor. To set up the systems efficiently, we use deep-sea Wi-Fi modules developed by IFREMER. 
 
-Our BLOS are specifically designed for deployment and recovering using GEOMAR's _ROV Phoca_, so that the entire system can be loaded onto the ROV's porch at one go and brought to the desired spot on the seafloor. Our engineers has came up with a creative solution for setting up the systems: a deep-sea Wi-Fi. 
+The ROV and the BLOS each hold a Wi-Fi module that allows real-time data transmission from the BLOS computer to the ROV. Once the ROV reaches the deployment site, the positioning, lighting, and camera configuration are carried out by controlling the BLOS directly from the mission control onboard the vessel. When all settings are complete, the Wi-Fi module linking the BLOS is removed from the ROV container, detaching the two systems completely.
 
-The ROV and the BLOS each hold a Wi-Fi module that allows real-time data transmission from BLOS computer to the ROV. Once the ROV reached the deployment site, the positioning, lighting and camera configuration will be carried out by controlling the BLOS directly from the mission control onboard the vessel. When all settings are done, the Wi-Fi module from the BLOS will be removed from ROV container, detaching the two systems completely. 
-
-[BLOS image onboard, wifi module] 
-
-<u>***Any read more links?***</u>
-
-<hr>
-
-Editor: Zhehao Hu
+```{r}
+insert_roulette("chapter/research/blos.yaml", "blos-2")
+```

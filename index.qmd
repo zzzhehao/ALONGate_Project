@@ -310,8 +310,8 @@ url.research <- c(
 # thumbnails
 thumbs.research <- c(
     "assets/img/Disconectes Coxalis_19122_f_V_300925.webp",
-    "assets/img/2026-07-31_17-05-53_MSMerian_MSM145_039-1ROV03_Logo.webp",
-    "assets/img/2026-07-31_17-05-53_MSMerian_MSM145_039-1ROV03_Logo.webp",
+    "assets/img/blos_infrontof_artreef.webp",
+    "assets/img/blos_infrontof_artreef.webp",
     "assets/img/Disconectes Coxalis_19122_f_V_300925.webp",
     "assets/img/Disconectes Coxalis_19122_f_V_300925.webp"
 )

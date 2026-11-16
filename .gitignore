@@ -2,7 +2,7 @@
 script/poster/*
 assets/resources/*
 
-data/*
+data/
 
 *.code-workspace
 

@@ -4,6 +4,10 @@ project:
   render: 
     - "*.qmd"
     - "!docs/*"
+  resources: 
+    - "*"
+    - "!assets/resources"
+    - "!assets/vid"
 
 website:
   title: "ALONGate"
@@ -68,3 +72,4 @@ affiliations:
 lightbox: true
 execute:
   freeze: auto
+  echo: false
