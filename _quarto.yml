@@ -24,8 +24,8 @@ website:
         href: chapter/research/kohlenbach-talk.qmd
       - text: "Project"
         menu:
-          - text: "Vision"
-            href: chapter/project/vision.qmd
+          - text: "About"
+            href: chapter/project/about.qmd
           - text: "Team"
             href: chapter/project/team.qmd
           - text: "Expeditions"

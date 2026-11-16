@@ -1,6 +1,6 @@
 ---
-title: "Vision"
-menutitle: "Vision"
+title: "About ALONGate"
+menutitle: "About ALONGate"
 ---
 
 ## <u>**A**</u> <u>**L**</u>ongterm <u>**O**</u>bservatory of the <u>**N**</u>orth Atlantic <u>**Gate**</u>way to the Arctic

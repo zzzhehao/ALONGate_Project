@@ -1,6 +1,6 @@
 ---
 title: "Comparing Arctic Macrobenthos Across a Decade (WCMB Talk)"
-menutitle: "Our WCMB Talk"
+menutitle: "Our Talk at WCMB"
 page_editors:
   - name: Katharina Kohlenbach
   - name: Zhehao Hu

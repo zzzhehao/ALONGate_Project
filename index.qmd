@@ -5,6 +5,7 @@ format:
   html:
     page-layout: custom   
     theme: default    
+lightbox: false
 ---
 
 ```{=html}
@@ -273,7 +274,7 @@ url.project <- c(
 
 # thumbnails
 thumbs.project <- c(
-    "assets/img/MSM_drone.webp"
+    "assets/logo/wcmb.webp"
 )
 
 cat(paste(parse_links(list(thumbs.project, url.project)), collapse = "\n\n"))
@@ -290,7 +291,7 @@ Project
 #| echo: false
 # relative path to qmd file
 url.project <- c(
-    "chapter/project/vision.qmd",
+    "chapter/project/about.qmd",
     "chapter/project/team.qmd",
     "chapter/project/expeditions.qmd"
 )
@@ -317,7 +318,6 @@ Research
 #| echo: false
 # relative path to qmd file
 url.research <- c(
-    "chapter/research/kohlenbach-talk.qmd",
     "chapter/research/blos.qmd",
     "chapter/research/benthic-survey.qmd",
     "chapter/research/arctic-cumacean.qmd",
@@ -326,10 +326,9 @@ url.research <- c(
 
 # thumbnails
 thumbs.research <- c(
-    "assets/img/Disconectes Coxalis_19122_f_V_300925.webp",
     "assets/img/blos_infrontof_artreef.webp",
-    "assets/img/blos_infrontof_artreef.webp",
-    "assets/img/Disconectes Coxalis_19122_f_V_300925.webp",
+    "assets/img/rov/benthic_survey.webp",
+    "https://upload.wikimedia.org/wikipedia/commons/f/f5/Diastylis_laevis.jpg?utm_source=de.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
     "assets/img/Disconectes Coxalis_19122_f_V_300925.webp"
 )
 
@@ -376,11 +375,13 @@ This project is supported by:
 # Partner logos
 
 partner_logos <- c(
-    "assets/logo/senckenberg.png"
+    "assets/logo/senckenberg.png",
+    "assets/logo/leibniz.png"
 )
 
 partner_urls <- c(
-    "https://www.senckenberg.de/"
+    "https://www.senckenberg.de/",
+    "https://www.leibniz-gemeinschaft.de"
 )
 
 # HTML Generation function
@@ -409,12 +410,18 @@ Collaboration partners:
 # Partner logos
 
 partner_logos <- c(
+    "assets/logo/uhh.png",
     "assets/logo/geomar.png",
+    "assets/logo/awi.png",
+    "assets/logo/Ifremer.webp",
     "assets/logo/mfri_white.webp"
 )
 
 partner_urls <- c(
+    "https://www.biologie.uni-hamburg.de",
     "https://www.geomar.de",
+    "https://www.awi.de",
+    "https://www.ifremer.fr/fr",
     "https://www.hafogvatn.is/en/"
 )
 

@@ -6,6 +6,12 @@ page_editors:
   - name: Zhehao Hu
 ---
 
+```{r}
+#| output: false
+devtools::load_all()
+library(tidyverse)
+```
+
 BLOS, stands for **Benthic Lander Observatory System**, is a customized system designed for data collection on the seafloor for a long period of time. Currently, three of such systems have been successfully deployed around Iceland during the MSM145 expedition in 2026. 
 
 ```{r}
@@ -23,7 +29,7 @@ blospos <- readr::read_delim("data/BLOS_pos.csv", delim = ",") %>% bind_cols(tib
 
 ```{r}
 #| fig-cap: "Deployed BLOS around Iceland - they are recording the seafloor as you look at this!"
-leaflet(data = blospos, height = "550px", width = "100%") %>%
+leaflet(data = blospos, width = "100%") %>%
   addProviderTiles(providers$Esri.OceanBasemap) %>%
   addMarkers(
     ~lon, ~lat, 

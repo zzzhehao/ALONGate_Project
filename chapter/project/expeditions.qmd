@@ -3,15 +3,21 @@ title: "Expeditions"
 menutitle: "Expeditions"
 ---
 
-In total of 7 expeditions have gone underway since 2023 under the ALONGate project:
+So far we were able to go on several cruises to sample for the ALONGate project. In collaboration with AWI, we were able to establish the ALONGate transects with annual visit of Polarstern to the HAUSGARTEN LTER at Fram Strait, as well as being part of the first ArcWatch expedition. 
 
-- PS148 (2025) HAUSGARTEN LTER, Polarstern
-- PS155 (2026) HAUSGARTEN LTER, Polarstern
-- MSM145 (2026) Circum-Iceland, deployment of three BLOS at natural coral reef, artificial reef at fishing closure area, and at hydrothermal vent
+- PS136 (2023) HAUSGARTEN
+- PS138 (2023) ArcWatch-1
+- PS143 (2024) HAUSGARTEN
+- PS148/1 (2025) ALONGate 1
+- PS155 (2026) ALONGate 2
 
-More are coming in the future
+This year, we deployed the first three of our Benthic Lander Observatory System (BLOS) around Iceland, and initialized our sampling at the No. 3 (deep) transect, complementing the long-time serie of benthic sampling conducted in the northern area. 
 
-- 2027: recover and re-deployment of the BLOS around iceland
-- 2028: benthic sampling of the southern transect 
+- MSM145 (2026) ALONGate 3, Circum-Iceland, deployment of three BLOS at natural coral reef, artificial reef at fishing closure area, and at hydrothermal vent.
+
+Of course there are more expedition planned in the future: next year, we will recover and re-deploy the three BLOS already filming in the dark deep-sea. Then in 2028, the No. 3 (deep) transect will be sampled more in detailed. 
+
+- ALONGate 4 (2027): recover and re-deployment of the BLOS around iceland
+- ALONGate 5 (2028): benthic sampling of the southern transect 
 
 {{< include /partial/_footer.qmd >}}
