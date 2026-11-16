@@ -4,8 +4,6 @@ project:
   render: 
     - "*.qmd"
     - "!docs/*"
-  pre-render: 
-    - "zsh assets/resources/ROV/rov_img_prep.zsh"
 
 website:
   title: "ALONGate"
