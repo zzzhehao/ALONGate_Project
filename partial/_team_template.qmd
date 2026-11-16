@@ -131,6 +131,7 @@ if (!is.null(meta$affiliation)) {
       name
     }
   }) %>% paste(collapse = " <span class='profile-divider'>&bull;</span> ")
+#   }) %>% paste(collapse = "<br>")
 }
 
 # HTML Generation: Image block comes first for mobile, CSS swaps it on desktop

@@ -1,0 +1,65 @@
+ebs:
+  images:
+    - title: "EBS lifted by the winch and about to be deployed."
+      url: "../../assets/img/ebs_deploy.webp"
+    - title: "Stefanie Kaiser (left) and Katharina Kohlenbach (right) monitoring the tension meter of the which. It is the primary way to see whether EBS is trawling smoothly on the seafloor."
+      url: "../../assets/img/ebs_tensionmeter.webp"
+    - title: "An official certificate for participating the cruise."
+      url: "../../assets/img/ebs_sticker.webp"
+    - title: "The collected samples are washed directly on the deck. "
+      url: "../../assets/img/decksort3.webp"
+    - title: "Saskia Brix (left, first) already sorting out some specimens."
+      url: "../../assets/img/decksort1.webp"
+        
+grabs:
+  images:
+    - title: "Box Corer is back onboard and covered by deep-sea mud."
+      url: "../../assets/img/bc_recover.webp"
+    - title: "Sometimes the box corer just got to the right place, and the epifauna comes on deck intact."
+      url: "../../assets/img/bc_photo.webp"
+    # - title: 
+    #   url: "../../assets/img/bc_recover2.webp"
+    - title: "The sediments of the box corer are separated by depth layer and homogenised before going through sieves."
+      url: "../../assets/img/bc_wash.webp"
+    - title: "You may say homogenising mud is an overcomplication - it's not as simple as playing with mud. It actually does require skills."
+      url: "../../assets/img/bc_wash3.webp"
+    - title: "Washing samples might sound easy, but it usually requires many more people ... including two people with cameras."
+      url: "../../assets/img/bc_wash2.webp"
+    - title: "All of our gears have names. Here are Kalli the box corer (left), and Ursula the EBS (right)."
+      url: "../../assets/img/bc_ebs.webp"
+    
+        
+rov:
+  images:
+    - title: _ROV Phoca_ ready to splash and dive
+      url: "../../assets/img/rov_deployment.webp"
+    - title: "Videos are shown in real-time for precise coordination between ROV pilots, bridges, and scientists."
+      url: "../../assets/img/rov_deckstation.webp"
+    - title: "Visuals are plugged into the ship intranet and are shown on bigger screens for scientists."
+      url: "../../assets/img/rov_showroom2.webp"
+    # - title: 
+    #   url: "../../assets/img/rov_surface.jpg"
+    - title: "It needs at least three scientists for each ROV dive: a dive lead making decisions, a protocol write documenting everything we see and do, and an emotional supporter also responsible to provide coffee. But normally we have way more people in the science room."
+      url: "../../assets/img/rov_showroom1.webp"
+    - title: "When people are off-shift, they also love watching what's going on under there."
+      url: "../../assets/img/rov_showroom.webp"
+    - title: "Two pilots are manipulating the ROV at all time. They sit in a separate ROV container, which allows them to focus on flying the ROV completely."
+      url: "../../assets/img/rov_container1.webp"
+    - title: "Samples are taken by one of the pilot manipulating the robotic arms."
+      url: "../../assets/img/rov_container2.webp"
+    - title: "We the manipulator, we can see before our samples, therefore only collecting those we really need."
+      url: "../../assets/img/row_sample2.webp"
+    - title: "Even the rest-over in the containers are precious samples for us."
+      url: "../../assets/img/rov_sample1.webp"
+
+        
+ofos:
+  images:
+    - title: "OFOS lifted and about to be deployed."
+      url: "../../assets/img/ofos_deploy.webp"
+    - title: "During the OFOS dive, a winch operator controls the distance from OFOS to the seafloor, our Postdoc, Lili, takes pictures and documents what's on the seafloor."
+      url: "../../assets/img/ofos_room1.webp"
+    - title: "Within no time, a crowd of the crews will assemble in the hanger ..."
+      url: "../../assets/img/hanger1.webp"
+    - title: "... to watch the seafloor"
+      url: "../../assets/img/hanger2.webp"

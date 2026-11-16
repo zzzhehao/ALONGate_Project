@@ -6,12 +6,11 @@ name_title: "Prof. Dr."
 affiliation:
   - name: "Benthic Biogeography, German Centre for Marine Biodiversity Research (DZMB), Senckenberg am Meer"
     url: "https://www.senckenberg.de/en/research/institutes-overview/sam/dzmb/sam-dzmb-sec-benthic-biogeography/"
-  - name: "University of Hamburg"
-    url: "https://www.biologie.uni-hamburg.de"
+  - name: "Institute of Marine Ecosystem and Fishery Science, University of Hamburg (IMF)"
+    url: "https://www.biologie.uni-hamburg.de/einrichtungen/imf.html"
 positiion: 'Head of Working Group "Benthic Biogeography", Professor at University of Hamburg'
 description_short: "Principle Investigator, Macrofauna (Isopoda)"
 profile_picture: "/assets/profile/saskia_brix.jpg"
-# profile_picture_credit: ""
 ---
 
 {{< include /partial/_team_template.qmd >}}

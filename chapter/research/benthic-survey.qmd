@@ -3,4 +3,50 @@ title: "Benthic Survey"
 menutitle: "Benthic Survey"
 ---
 
+
+```{r}
+#| output: false
+devtools::load_all()
+library(tidyverse)
+```
+
+The deep-sea benthos is remote and much harder to reach than shallower, coastal seafloor. We mainly uses four gears to collect our data:
+
+## Epibenthic Sledge (EBS)
+
+As the name suggests, EBS is similar to a trawl on the seafloor. It is optimized to capture the epifauna and infauna of the first few centimeters. 
+
+Of course, EBS leaves a trawling trail behind it and the gear itself is also sensitive to boulders on the seafloor. Therefore the EBS is only deployed at soft sediment plains and the trawling distances are normally planned between 50 to 100 meters. 
+
+```{r}
+insert_roulette("chapter/research/benthic-survey.yaml", "ebs")
+```
+
+## Grabs
+
+Compared to EBS, different grabs are used, also at the area where EBS is impossible to sample due to dense boulders on the seafloor. Among all of them, the Box Corer is one of the most used gear, which always brings the exact area of sediment back onboard, while keeping the sediment surface and internal structure intact. Allowing us to conduct more detailed quantitative analysis. 
+
+```{r}
+insert_roulette("chapter/research/benthic-survey.yaml", "grabs")
+```
+
+## Remotely Operated Vehicle (ROV)
+
+The ROV is becoming a star in the deep-sea exploration. Of course we would like to work with them. _ROV Phoca_ from GEOMAR is a very special member of us, who will bring our Benthic Lander Observatory System onto the seafloor. And if it's not busy deploying landers, we also love to have some deep-sea "Spaziergang" with astonishing 4K cameras and our sampling boxes. 
+
+Different from EBS and grabs, as the videos of the ROV are transmitted real-time to the vessel, we can see what's down there and sample very specifically, leaving minimal disturbance on the seafloor.
+
+```{r}
+insert_roulette("chapter/research/benthic-survey.yaml", "rov")
+```
+
+## Ocean Floor Observation System (OFOS)
+
+Similar to ROV, OFOS is another gear based on imagery data collection. However, OFOS is for observation only - it has no manipulators, nor can it sample the seafloor. Also without any thruster, OFOS completely relied on the vessel towing it, but therefore, it's much easier to deploy. 
+
+```{r}
+insert_roulette("chapter/research/benthic-survey.yaml", "ofos")
+```
+
 {{< include /partial/_footer.qmd >}}
+

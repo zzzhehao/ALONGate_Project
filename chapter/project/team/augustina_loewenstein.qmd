@@ -4,8 +4,8 @@ name_first: Augustina
 name_last: Löwenstein
 name_title: ""
 affiliation:
-  - name: "University of Hamburg"
-    url: "https://www.biologie.uni-hamburg.de"
+  - name: "Institute of Marine Ecosystem and Fishery Science, University of Hamburg (IMF)"
+    url: "https://www.biologie.uni-hamburg.de/einrichtungen/imf.html"
 positiion: "PhD Student"
 description_short: "Cold Water Coral Associated Fauna (Isopoda), Population Genomics"
 profile_picture: "/assets/profile/augustina_loewenstein.jpeg"
