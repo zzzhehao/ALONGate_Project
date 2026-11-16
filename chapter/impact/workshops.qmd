@@ -8,6 +8,8 @@ format:
           <div id="header-image">
             <img src="/assets/img/ocisopod-_ZZ87432-ZH.webp" alt="Header Image" width="100%">
           </div>
+page_editors: 
+  - name: Zhehao Hu
 ---
 
 ```{r}
@@ -23,18 +25,15 @@ library(tidyverse)
 header_image(height_headerimage = 400, y_transform = 10) # fixing header image
 ```
 
-## Confusing Crustaceans II: Peracarid Species Identification and Description
+Samples collected at our study area have already been used for species identification and discovery workshops, such as:
 
+- [**Confusing Crustaceans II: Peracarid Species Identification and Description**](https://www.peracarida.org/workshops/2025-confusing-crustaceans)
+- [**Ocean Census Species Discovery Workshop: Isopoda**](https://oceancensus.org/streamlining-species-discovery-more-than-100-isopods-identified-in-just-two-weeks/)
 
+These workshops have supported early-career scientists from different regions around the world to gather and learn from the expert taxonomists. From samples collected under the ALONGate project, multiple species, even genus new to science, were discovered and currently under description process. 
 
-[Confusing Crustaceans II: Peracarid Species Identification and Description](https://www.peracarida.org/workshops/2025-confusing-crustaceans)
+## See What Our Early-Career Researchers Say
 
-## Ocean Census Species Discovery Workshop: Isopoda
-
-[Small creatues, big questions (Ocean Census)](https://oceancensus.org/small-creatures-big-questions-early-career-taxonomists-at-the-isopod-species-discovery-workshop/)
-
-
-[More than 100 isopods identified (Ocean Census)](https://oceancensus.org/streamlining-species-discovery-more-than-100-isopods-identified-in-just-two-weeks/)
-
+[Small Creatures, Big Questions: Early-Career Taxonomists At the Isopod Species Discovery Workshop](https://oceancensus.org/small-creatures-big-questions-early-career-taxonomists-at-the-isopod-species-discovery-workshop/)
 
 {{< include /partial/_footer.qmd >}}

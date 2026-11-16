@@ -39,7 +39,7 @@ rov:
       url: "../../assets/img/rov_showroom2.webp"
     # - title: 
     #   url: "../../assets/img/rov_surface.jpg"
-    - title: "It needs at least three scientists for each ROV dive: a dive lead making decisions, a protocol write documenting everything we see and do, and an emotional supporter also responsible to provide coffee. But normally we have way more people in the science room."
+    - title: "It needs at least three scientists for each ROV dive: a dive lead making decisions, a protocol writer documenting everything we see and do, and an emotional supporter who's responsible for providing enough coffee and tea. But normally we have way more people in the science room."
       url: "../../assets/img/rov_showroom1.webp"
     - title: "When people are off-shift, they also love watching what's going on under there."
       url: "../../assets/img/rov_showroom.webp"
@@ -48,16 +48,16 @@ rov:
     - title: "Samples are taken by one of the pilot manipulating the robotic arms."
       url: "../../assets/img/rov_container2.webp"
     - title: "We the manipulator, we can see before our samples, therefore only collecting those we really need."
-      url: "../../assets/img/row_sample2.webp"
-    - title: "Even the rest-over in the containers are precious samples for us."
       url: "../../assets/img/rov_sample1.webp"
+    - title: "Even the rest-over in the containers are precious samples for us."
+      url: "../../assets/img/row_sample2.webp"
 
         
 ofos:
   images:
     - title: "OFOS lifted and about to be deployed."
       url: "../../assets/img/ofos_deploy.webp"
-    - title: "During the OFOS dive, a winch operator controls the distance from OFOS to the seafloor, our Postdoc, Lili, takes pictures and documents what's on the seafloor."
+    - title: "During the OFOS dive, a winch operator controls the distance of OFOS from the seafloor. Our Postdoc, Lili, takes pictures and documents what's on the seafloor."
       url: "../../assets/img/ofos_room1.webp"
     - title: "Within no time, a crowd of the crews will assemble in the hanger ..."
       url: "../../assets/img/hanger1.webp"

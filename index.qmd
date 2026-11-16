@@ -299,8 +299,8 @@ url.project <- c(
 # thumbnails
 thumbs.project <- c(
     "assets/img/map_alongate_cropped.png",
-    "assets/img/msm145_onboard.webp",
-    "assets/img/msm145_sgn_team.webp"
+    "assets/img/msm145_sgn_team.webp",
+    "assets/img/msm145_onboard.webp"
 )
 
 cat(paste(parse_links(list(thumbs.project, url.project)), collapse = "\n\n"))

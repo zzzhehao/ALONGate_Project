@@ -1,13 +1,8 @@
 ---
 title: "Collaboations"
 menutitle: "Collaboations"
-# format:
-#   html:
-#     include-before-body: 
-#       - text: |
-#           <div id="header-image">
-#             <img src="/assets/img/ocisopod-_ZZ87432-ZH.webp" alt="Header Image" width="100%">
-#           </div>
+page_editors: 
+  - name: Zhehao Hu
 ---
 
 ```{r}
@@ -23,6 +18,6 @@ library(tidyverse)
 header_image(height_headerimage = 400, y_transform = 10) # fixing header image
 ```
 
-## ALONGate 1
+
 
 {{< include /partial/_footer.qmd >}}
