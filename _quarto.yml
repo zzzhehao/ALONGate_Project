@@ -4,13 +4,11 @@ project:
   render: 
     - "*.qmd"
     - "!docs/*"
-resources: 
-    - "*"
-    - "!.git/"
-    - "!.github/"
-    - "!.quarto/"
-    - "!assets/resources"
-    - "!assets/vid"
+  resources: 
+    - "assets/**"
+    - "!assets/resources/**"
+    - "inst/**"
+    - "theme/**"
 
 website:
   title: "ALONGate"

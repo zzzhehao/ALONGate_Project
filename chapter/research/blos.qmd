@@ -16,9 +16,9 @@ library(tidyverse)
 library(leaflet)
 
 blospos <- readr::read_delim("data/BLOS_pos.csv", delim = ",") %>% bind_cols(tibble(popup_html = c(
-    "<div style='text-align:center;'><img src='/assets/img/blos_infrontof_artreef.webp' width='250px'><br><b>Artificial Reef</b><br>Six artificial coral reefs are dropped to the seafloor in collaboration with the HFRI from Iceland. The BLOS is monitoring one of them.</div>",
-    "<div style='text-align:center;'><img src='/assets/img/blos_infrontof_coralreef.webp' width='250px'><br><b>Cold Water Coral Reef</b><br>An intact, lively cold-water coral reef is chosen as a comparison to the artificial reef site.</div>",
-    "<div style='text-align:center;'><img src='/assets/img/blos_infrontof_vent.webp' width='250px'><br><b>Hydrothermal Vent</b><br>As delicate and vulnerable marine habitats, hydrothermal vents are on the top list as our BLOS target.</div>"
+    "<div style='text-align:center;'><img src='../../assets/img/blos_infrontof_artreef.webp' width='250px'><br><b>Artificial Reef</b><br>Six artificial coral reefs are dropped to the seafloor in collaboration with the HFRI from Iceland. The BLOS is monitoring one of them.</div>",
+    "<div style='text-align:center;'><img src='../../assets/img/blos_infrontof_coralreef.webp' width='250px'><br><b>Cold Water Coral Reef</b><br>An intact, lively cold-water coral reef is chosen as a comparison to the artificial reef site.</div>",
+    "<div style='text-align:center;'><img src='../../assets/img/blos_infrontof_vent.webp' width='250px'><br><b>Hydrothermal Vent</b><br>As delicate and vulnerable marine habitats, hydrothermal vents are on the top list as our BLOS target.</div>"
   )))
 ```
 
@@ -50,3 +50,4 @@ The ROV and the BLOS each hold a Wi-Fi module that allows real-time data transmi
 ```{r}
 insert_roulette("chapter/research/blos.yaml", "blos-2")
 ```
+
