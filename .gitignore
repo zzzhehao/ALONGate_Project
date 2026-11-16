@@ -16,7 +16,6 @@ data/*
 *.sqlite
 
 # Quarto
-/_freeze/
 /_extensions/
 /.quarto/
 /_site/
