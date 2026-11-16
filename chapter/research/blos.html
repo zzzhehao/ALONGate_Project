@@ -77,6 +77,19 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<link href="../../site_libs/htmltools-fill-0.5.9/fill.css" rel="stylesheet">
+<script src="../../site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<script src="../../site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<link href="../../site_libs/leaflet-1.3.1/leaflet.css" rel="stylesheet">
+<script src="../../site_libs/leaflet-1.3.1/leaflet.js"></script>
+<link href="../../site_libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet">
+<script src="../../site_libs/proj4-2.6.2/proj4.min.js"></script>
+<script src="../../site_libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
+<link href="../../site_libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet">
+<script src="../../site_libs/leaflet-binding-2.2.3/leaflet.js"></script>
+<script src="../../site_libs/leaflet-providers-3.0.0/leaflet-providers.js"></script>
+<script src="../../site_libs/leaflet-providers-plugin-2.2.3/leaflet-providers-plugin.js"></script>
+<script src="../../site_libs/roulette-module-1.1.0/roulette.js"></script>
 
 
 <link rel="stylesheet" href="../../chapter/article.css">
@@ -383,28 +396,49 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>BLOS, stands for <strong>Benthic Lander Observatory System</strong>, is a customized system designed for data collection on the seafloor for a long period of time. Currently, three of such systems have been successfully deployed around Iceland during the MSM145 expedition in 2026.</p>
-<p>[A map with points of BLOS]</p>
+<div class="cell">
+<div class="cell-output-display">
+<div class="leaflet html-widget html-fill-item" id="htmlwidget-f57ce0f8b10c187c05e6" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-f57ce0f8b10c187c05e6">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addProviderTiles","args":["Esri.OceanBasemap",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addMarkers","args":[[63.30466,63.88253,66.60413],[-16.87085,-13.9806,-17.653983],null,null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},["<div style='text-align:center;'><img src='/assets/img/blos_infrontof_artreef.webp' width='250px'><br><b>Artificial Reef<\/b><br>Six artificial coral reefs are dropped to the seafloor in collaboration with the HFRI from Iceland. The BLOS is monitoring one of them.<\/div>","<div style='text-align:center;'><img src='/assets/img/blos_infrontof_coralreef.webp' width='250px'><br><b>Cold Water Coral Reef<\/b><br>An intact, lively cold-water coral reef is chosen as a comparison to the artificial reef site.<\/div>","<div style='text-align:center;'><img src='/assets/img/blos_infrontof_vent.webp' width='250px'><br><b>Hydrothermal Vent<\/b><br>As delicate and vulnerable marine habitats, hydrothermal vents are on the top list as our BLOS target.<\/div>"],null,null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[63.30466,66.60413],"lng":[-17.653983,-13.9806]}},"evals":[],"jsHooks":[]}</script>
+<p>Deployed BLOS around Iceland - they are recording the seafloor as you look at this!</p>
+</div>
+</div>
 <section id="how-are-they-built" class="level2">
 <h2 class="anchored" data-anchor-id="how-are-they-built">How are they built?</h2>
-<ul>
-<li>~ 5 sentences</li>
-<li>Our BLOS are built based on prototype from …</li>
-<li>(Description) Energy, camera, computer, lighting modules are assembled on a metal frame …</li>
-<li>We have made modification to … (if any)</li>
-<li>Any speciality on the housing, e.g.&nbsp;special material for stable deployment in the deep sea</li>
-<li>Every 12 hours, the BLOS takes 60 seconds of videos, and this will be carried out for one year until the next visit.</li>
-</ul>
-<p>[Picture roulette for BLOS]</p>
+<p>The conceptual design of our BLOS is based on the landers originally constructed by <a href="https://www.ifremer.fr/fr">IFREMER</a>. The physical structure consists of stainless steel frames to mount the individual components, including the camera, energy modules, the communication and storage systems. To ensure stable deployment and long-term durability in the extreme deep-sea environment, the equipment housings are constructed from titanium, a material known for its high resistance to immense pressure and saltwater corrosion. Once deployed, the system operates autonomously, programmed to record between 60 and 160 seconds of video every 12 hours. This continuous monitoring cycle will be carried out for an entire year until the next visit to retrieve the data.</p>
+<div class="cell">
+<div class="cell-output-display">
+<figure id="roulette-blos-1" class="roulette-container figure" style="margin: 0; padding: 0;" data-images="[{&quot;title&quot;:&quot;Our engineers Maik (right) and Hauke (left) assemblying BLOS onboard&quot;,&quot;url&quot;:&quot;/assets/img/maik_hauke_blos.webp&quot;,&quot;caption&quot;:&quot;Our engineers Maik (right) and Hauke (left) assemblying BLOS onboard&quot;},{&quot;title&quot;:&quot;BLOS testing its lighting configuration in front of an artificial coral reef&quot;,&quot;url&quot;:&quot;/assets/img/blos_infrontof_artreef.webp&quot;,&quot;caption&quot;:&quot;BLOS testing its lighting configuration in front of an artificial coral reef&quot;}]">
+<div class="roulette-stage" style="height: 400px; position: relative; width: 100%; display: flex; justify-content: center; align-items: center; overflow: hidden; box-sizing: border-box;"></div>
+<a href="../../assets/img/maik_hauke_blos.webp" class="lightbox" style="display: none;">dummy</a>
+<div class="roulette-thumbnails" style="display: flex; justify-content: center;">
+<div class="r-track"></div>
+</div>
+<figcaption class="roulette-caption" style="text-align: center; margin-top: 10px; width: 100%;">
+<div class="caption-text" style="text-align: center; margin: 0 auto;">Our engineers Maik (right) and Hauke (left) assemblying BLOS onboard</div>
+</figcaption>
+</figure>
+</div>
+</div>
 </section>
 <section id="deployment-and-recovery" class="level2">
 <h2 class="anchored" data-anchor-id="deployment-and-recovery">Deployment and Recovery</h2>
-<p><strong>Is the Wifi module originally from us or the Ifremer has used it previously? If it’s from us we need to sell this novelty.</strong></p>
-<p>Our BLOS are specifically designed for deployment and recovering using GEOMAR’s <em>ROV Phoca</em>, so that the entire system can be loaded onto the ROV’s porch at one go and brought to the desired spot on the seafloor. Our engineers has came up with a creative solution for setting up the systems: a deep-sea Wi-Fi.</p>
-<p>The ROV and the BLOS each hold a Wi-Fi module that allows real-time data transmission from BLOS computer to the ROV. Once the ROV reached the deployment site, the positioning, lighting and camera configuration will be carried out by controlling the BLOS directly from the mission control onboard the vessel. When all settings are done, the Wi-Fi module from the BLOS will be removed from ROV container, detaching the two systems completely.</p>
-<p>[BLOS image onboard, wifi module]</p>
-<p><u><strong><em>Any read more links?</em></strong></u></p>
-<hr>
-<p>Editor: Zhehao Hu</p>
+<p>Our BLOS are specifically designed for deployment and recovery using <a href="https://www.geomar.de/en/st/tlz/rovphoca/overview">GEOMAR’s <em>ROV Phoca</em></a>, allowing the entire system to be loaded onto the ROV’s porch in one go and brought to the desired spot on the seafloor. To set up the systems efficiently, we use deep-sea Wi-Fi modules developed by IFREMER.</p>
+<p>The ROV and the BLOS each hold a Wi-Fi module that allows real-time data transmission from the BLOS computer to the ROV. Once the ROV reaches the deployment site, the positioning, lighting, and camera configuration are carried out by controlling the BLOS directly from the mission control onboard the vessel. When all settings are complete, the Wi-Fi module linking the BLOS is removed from the ROV container, detaching the two systems completely.</p>
+<div class="cell">
+<div class="cell-output-display">
+<figure id="roulette-blos-2" class="roulette-container figure" style="margin: 0; padding: 0;" data-images="[{&quot;title&quot;:&quot;BLOS loaded on _ROV Phoca_&quot;,&quot;url&quot;:&quot;/assets/img/blos_on_rov.webp&quot;,&quot;caption&quot;:&quot;BLOS loaded on <em>ROV Phoca<\/em>&quot;},{&quot;title&quot;:&quot;_ROV Phoca_ being deployed with the BLOS on its porch&quot;,&quot;url&quot;:&quot;/assets/img/phoca_deployment.webp&quot;,&quot;caption&quot;:&quot;<em>ROV Phoca<\/em> being deployed with the BLOS on its porch&quot;},{&quot;title&quot;:&quot;Scientists sitting in the mission control to watch the deployment of BLOS&quot;,&quot;url&quot;:&quot;/assets/img/confroom.webp&quot;,&quot;caption&quot;:&quot;Scientists sitting in the mission control to watch the deployment of BLOS&quot;},{&quot;title&quot;:&quot;An illustration of the Wi-Fi modules&quot;,&quot;url&quot;:&quot;/assets/img/blos_wifi_scheme.png&quot;,&quot;caption&quot;:&quot;An illustration of the Wi-Fi modules&quot;}]">
+<div class="roulette-stage" style="height: 400px; position: relative; width: 100%; display: flex; justify-content: center; align-items: center; overflow: hidden; box-sizing: border-box;"></div>
+<a href="../../assets/img/blos_on_rov.webp" class="lightbox" style="display: none;">dummy</a>
+<div class="roulette-thumbnails" style="">
+<div class="r-track"></div>
+</div>
+<figcaption class="roulette-caption" style="text-align: center; margin-top: 10px; width: 100%;">
+<div class="caption-text" style="text-align: center; margin: 0 auto;">BLOS loaded on <em>ROV Phoca</em></div>
+</figcaption>
+</figure>
+</div>
+</div>
 
 
 </section>
