@@ -3,6 +3,8 @@ title: "Cumaceans in the Deep Arctic Ocean"
 menutitle: "Cumaceans in the Deep Arctic Ocean"
 execute:
   echo: false
+page_editors:
+  - name: Zhehao Hu
 ---
 
 ```{r}
@@ -10,7 +12,7 @@ execute:
 devtools::load_all()
 ```
 
-## 10 Years, 2,000+ Specimens, 1 Massive Catalogue
+## 10 years, 2,000+ specimens, 1 catalogue
 
 Our team focused on Cumaceans (also called "comma shrimp"), which are small crustaceans that live on and in the seafloor. Over the past 10 years, using gears like box corers and epibenthic sleds, we sampled deep-sea cumaceans living below 500 m depth at the HAUSGARTEN LTER. Nearly 2200 individual specimens were examined for this study and we found:
 
@@ -20,7 +22,7 @@ Our team focused on Cumaceans (also called "comma shrimp"), which are small crus
 
 ![HAUSGARTEN LTER is located at Fram Strait between Svalbard and Greenland. It is strongly effected by the local current system: West Spitzbergen Current (WSC), East Greenland Current (EGC), and Return Atlantic Current (RAC).](/assets/img/cumi-area.webp)
 
-## Up Close, In Detail
+## Up close, in detail
 
 We were incredibly lucky to collect some rarely sampled, perfectly intact specimens. High-resolution images were capturered for the specimens, and for some of the species, these images are first of its kind.
 
@@ -29,7 +31,7 @@ We were incredibly lucky to collect some rarely sampled, perfectly intact specim
 insert_roulette("chapter/research/arctic-cumacean.yaml", "cumi-plates")
 ```
 
-## The First Identification Key for Arctic Cumaceans
+## The first identification key for Arctic Cumaceans
 
 We’ve put together a comprehensive catalogue featuring simplified traditional and digital identification keys for 64 species of deep-sea Cumacea. Based on our models, this list is likely a complete representation of cumacean species in the Arctic deep sea. Because the Central Arctic Ocean has a low uniqueness of taxa, these identification keys can be reliably applied to the entire deep Arctic Ocean.
 

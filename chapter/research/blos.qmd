@@ -2,8 +2,8 @@
 title: "A Long-term Observatory on the Seafloor"
 menutitle: "Benthic Lander Observatory System"
 page_editors:
-  - name: Hauke Pape
   - name: Zhehao Hu
+  - name: Hauke Pape
 ---
 
 ```{r}
@@ -12,20 +12,7 @@ devtools::load_all()
 library(tidyverse)
 ```
 
-BLOS, stands for **Benthic Lander Observatory System**, is a customized system designed for data collection on the seafloor for a long period of time. Currently, three of such systems have been successfully deployed around Iceland during the MSM145 expedition in 2026. 
-
-```{r}
-#| output: false
-devtools::load_all()
-library(tidyverse)
-library(leaflet)
-
-blospos <- readr::read_delim("data/BLOS_pos.csv", delim = ",") %>% bind_cols(tibble(popup_html = c(
-    "<div style='text-align:center;'><img src='../../assets/img/blos_infrontof_artreef.webp' width='250px'><br><b>Artificial Reef</b><br>Six artificial coral reefs are dropped to the seafloor in collaboration with the HFRI from Iceland. The BLOS is monitoring one of them.</div>",
-    "<div style='text-align:center;'><img src='../../assets/img/blos_infrontof_coralreef.webp' width='250px'><br><b>Cold Water Coral Reef</b><br>An intact, lively cold-water coral reef is chosen as a comparison to the artificial reef site.</div>",
-    "<div style='text-align:center;'><img src='../../assets/img/blos_infrontof_vent.webp' width='250px'><br><b>Hydrothermal Vent</b><br>As delicate and vulnerable marine habitats, hydrothermal vents are on the top list as our BLOS target.</div>"
-  )))
-```
+BLOS, stands for **Benthic Lander Observatory System**, is a customized system designed for data collection on the seafloor for a long period of time. 
 
 ```{r}
 #| fig-cap: "Deployed BLOS around Iceland - they are recording the seafloor as you look at this!"
@@ -45,7 +32,7 @@ The conceptual design of our BLOS is based on the landers originally constructed
 insert_roulette("chapter/research/blos.yaml", "blos-1")
 ```
 
-## Deployment and Recovery
+## Deployment and recovery
 
 Our BLOS are specifically designed for deployment and recovery using [GEOMAR's _ROV Phoca_](https://www.geomar.de/en/st/tlz/rovphoca/overview), allowing the entire system to be loaded onto the ROV's porch in one go and brought to the desired spot on the seafloor. To set up the systems efficiently, we use deep-sea Wi-Fi modules developed by IFREMER. 
 
@@ -53,6 +40,23 @@ The ROV and the BLOS each hold a Wi-Fi module that allows real-time data transmi
 
 ```{r}
 insert_roulette("chapter/research/blos.yaml", "blos-2")
+```
+
+## Where are they now?
+
+Currently, three of such systems have been successfully deployed around Iceland during the MSM145 expedition in 2026. 
+
+```{r}
+#| output: false
+devtools::load_all()
+library(tidyverse)
+library(leaflet)
+
+blospos <- readr::read_delim("data/BLOS_pos.csv", delim = ",") %>% bind_cols(tibble(popup_html = c(
+    "<div style='text-align:center;'><img src='../../assets/img/blos_infrontof_artreef.webp' width='250px'><br><b>Artificial Reef</b><br>Six artificial coral reefs are dropped to the seafloor in collaboration with the HFRI from Iceland. The BLOS is monitoring one of them.</div>",
+    "<div style='text-align:center;'><img src='../../assets/img/blos_infrontof_coralreef.webp' width='250px'><br><b>Cold Water Coral Reef</b><br>An intact, lively cold-water coral reef is chosen as a comparison to the artificial reef site.</div>",
+    "<div style='text-align:center;'><img src='../../assets/img/blos_infrontof_vent.webp' width='250px'><br><b>Hydrothermal Vent</b><br>As delicate and vulnerable marine habitats, hydrothermal vents are on the top list as our BLOS target.</div>"
+  )))
 ```
 
 {{< include /partial/_footer.qmd >}}

@@ -18,6 +18,24 @@ library(tidyverse)
 header_image(height_headerimage = 400, y_transform = 10) # fixing header image
 ```
 
+Deep-sea research is built on teamwork and joint effort, we also value collaborations with a wide institution and research partners. Close to 20% of our collected specimens are loaned to our partners to foster collaboration in the research community, and bringing taxonomic expertise together. These are:
 
+- [University of Hamburg](https://www.uni-hamburg.de/en.html)
+- [University of Iceland](https://english.hi.is)
+- [Nord University](https://www.nord.no/en/about/study-locations/bodo)
+- [The Arctic University of Norway (UiT)](https://en.uit.no/startsida)
+- [Marine & Freshwater Research Institute](https://www.hafogvatn.is/en/)
+- [Ifremer](https://www.ifremer.fr/en)
+- [GEOMAR Helmholtz-Zentrum für Ozeanforschung Kiel](https://www.geomar.de)
+- [Universität Lodz](https://www.uni.lodz.pl/en/)
+- [British Antarctic Survey](https://www.bas.ac.uk)
+
+Some of our close collaborators are:
+
+- [Prof. Dr. Bodil Bluhm](https://en.uit.no/ansatte/person?p_document_id=384289)
+- [Prof. Dr. Henning Reiss](https://www.nord.no/en/about/employees/henning-reiss)
+- [Dr. Katrin Linse](https://www.bas.ac.uk/profile/kl/)
+
+And the list keeps growing! Do you work in related research topics or have an idea for potential collaboration? Feel free to reach out!
 
 {{< include /partial/_footer.qmd >}}

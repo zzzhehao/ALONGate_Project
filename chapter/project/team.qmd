@@ -92,6 +92,8 @@ format:
 </style>
 ```
 
+Meet out Senckenberg-associated members! 
+
 ```{r}
 #| echo: false
 #| output: false
@@ -162,5 +164,10 @@ team_cards <- map2(frontmatter.ls, path.team.sorted, function(person, path) {
 #| output: asis
 div(class = "team-grid", team_cards)
 ```
+
+<br>
+<br>
+
+There are of course a lot more collaborators from outside of the Senckenberg team, who also worked alongside us. Read more about them in [collaborations](chapter/impact/collaborations.qmd)
 
 {{< include /partial/_footer.qmd >}}
