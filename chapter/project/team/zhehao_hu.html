@@ -48,9 +48,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-b64bf133a05c9b35a1c1b0604a81005c.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap-d3557baebe7cecdb42720d7c9b969968.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../../site_libs/bootstrap/bootstrap-dark-8bf0ae8993bcacae47a5ee4cd91398d6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../../../site_libs/bootstrap/bootstrap-d3557baebe7cecdb42720d7c9b969968.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-44bcd54f114fb1c19f4be098ed7f9cf0.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-dark-d244f739cca567055b6ee69fc1b44081.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../../site_libs/bootstrap/bootstrap-44bcd54f114fb1c19f4be098ed7f9cf0.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -281,8 +281,8 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-project">    
         <li>
-    <a class="dropdown-item" href="../../../chapter/project/vision.html">
- <span class="dropdown-text">Vision</span></a>
+    <a class="dropdown-item" href="../../../chapter/project/about.html">
+ <span class="dropdown-text">About</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../../../chapter/project/team.html">
@@ -353,148 +353,6 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<!-- 
-
-
-```{=html}
-<style>
-/* Mobile-first layout: stacks items, image on top naturally */
-  .profile-header-container {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    margin-bottom: 2.5rem;
-    padding-bottom: 2rem;
-    /* border-bottom: 1px solid var(--border-color); */
-  }
-
-  .profile-image-block {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end; /* Right-justifies the credit text */
-  }
-
-  .profile-photo {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 5%;
-    border: 3px solid var(--accent-main);
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    margin-bottom: 0.5rem;
-  }
-
-  /* New style for the photo credit */
-  .profile-credit {
-    font-size: 0.8rem;
-    color: var(--text-muted);
-    margin: 8px 0 0 0;
-    max-width: 200px; /* Constrains text width to match the photo */
-    text-align: right;
-  }
-
-  /* Desktop layout: Side-by-side, swaps the order */
-  @media (min-width: 768px) {
-    .profile-header-container {
-      flex-direction: row;
-      align-items: flex-start;
-    }
-    .profile-info {
-      flex: 1;
-      order: 1; /* Forces text to the left */
-      min-width: 250px;
-    }
-    .profile-image-block {
-      order: 2; /* Forces image to the right */
-      flex-shrink: 0;
-    }
-  }
-
-  .profile-header-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-    align-items: center;
-    margin-bottom: 2.5rem;
-    padding-bottom: 2rem;
-    /* border-bottom: 1px solid var(--border-color); */
-  }
-  .profile-photo {
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
-    border-radius: 50%%;
-    border: 3px solid var(--accent-main);
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    flex-shrink: 0;
-  }
-  .profile-info {
-    flex: 1;
-    min-width: 250px;
-  }
-  .profile-fullname {
-    font-size: 2.5rem;
-    font-weight: var(--fw-bold);
-    color: var(--text-main);
-    margin: 0 0 5px 0;
-    line-height: 1.2;
-  }
-  .profile-position {
-    font-size: 1.2rem;
-    font-weight: var(--fw-medium);
-    color: var(--accent-main);
-    margin: 0 0 10px 0;
-  }
-  .profile-affiliations {
-    font-size: 1rem;
-    margin: 0 0 15px 0;
-  }
-  .profile-affil-link {
-    color: var(--text-main);
-    text-decoration: underline;
-    text-decoration-color: var(--accent-main);
-    text-underline-offset: 3px;
-  }
-  .profile-affil-link:hover {
-    color: var(--accent-hover);
-  }
-  .profile-divider {
-    color: var(--text-muted);
-    margin: 0 5px;
-  }
-  .profile-short-desc {
-    font-size: 1.05rem;
-    font-style: italic;
-    color: var(--text-muted);
-    margin: 0;
-    line-height: 1.5;
-  }
-</style>
-```
-
-::: {.cell}
-
-:::
-
-```{=html}
-
-<div class="profile-header-container">
-<div class="profile-image-block">
-<img src="/assets/profile/zhehao_hu.jpg" alt="Profile Picture of Zhehao Hu" class="profile-photo">
-<p class="profile-credit">&copy; Alex Ingle</p>
-</div>
-<div class="profile-info">
-<h2 class="profile-fullname">Zhehao Hu</h2>
-<p class="profile-position"></p>
-<div class="profile-affiliations"><a href="https://www.senckenberg.de/en/research/institutes-overview/sam/dzmb/sam-dzmb-sec-benthic-biogeography/" target="_blank" class="profile-affil-link">Benthic Biogeography, German Centre for Marine Biodiversity Research (DZMB), Senckenberg am Meer</a></div>
-<p class="profile-short-desc">ROV Biological Survey, DNA Barcoding, Macrofauna (Isopoda)</p>
-</div>
-</div>
-
-```
-
-
--->
 <style>
 /* Mobile-first layout: stacks items, image on top naturally */
   .profile-header-container {
