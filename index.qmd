@@ -10,7 +10,7 @@ format:
 ```{=html}
 <!-- looping video background -->
 <video autoplay loop muted playsinline class="bg-video">
-    <source src="./assets/resources/website_carousel.mov" type="video/mp4">
+    <source src="https://ik.imagekit.io/zhehaoatsgn/website_carousel.mp4" type="video/mp4">
 </video>
 
 <style>
