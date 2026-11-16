@@ -1,0 +1,20 @@
+---
+title: "Vision"
+menutitle: "Vision"
+---
+
+## <u>**A**</u> <u>**L**</u>ongterm <u>**O**</u>bservatory of the <u>**N**</u>orth Atlantic <u>**Gate**</u>way to the Arctic
+
+ALONGate is an endorsed „UN decade action“ in cooperation with [DOOS](https://www.deepoceanobserving.org) and [Challenger 150](https://challenger150.world).
+
+### Where is the Arctic Gateway? And Why?
+
+The boundary region between Iceland, Norway, and Greenland acts as a corridor for specialized fauna to extreme environmental conditions moving through the North Atlantic Gateway to the Arctic Ocean. While a huge amount of biodiversity data is available for this area, the accumulation of data in more frequently sampled regions reveals sampling gaps, especially in deep and remote regions. The ALONGate project studies biodiversity across temporal and spatial gradients and connects data from previously established projects around Iceland (BIOICE: Benthic Invertebrates of Icelandic waters 1992 – 2004 and IceAGE: Icelandic marine Animals: Genetics and Ecology since 2011). 
+
+## Vision: Establishing Transects
+
+Since 2023, annual Epibenthic Sledge (EBS) sampling in the HAUSGARTEN long-term ecological observatory established by the Alfred-Wegener-Institute contributes to a fundamental understanding of local warm and cold-water species distributions. Additionally, samples collected on a latitudinal Nord-South transect from Germany to the Fram Strait fill knowledge gaps for future observations of faunal community shifts towards northern waters. 
+
+In-situ sampling of latitudinal and longitudinal deep-sea transects throughout the Gateway area is complemented with the deployment of long-term Benthic Lander Observatory Systems (BLOS) at critical intersecting nodes of the North-South and East-West transects, with a special focus on collecting image data of Vulnerable Marine Ecosystems (VMEs) like hydrothermal vents or cold-water coral (CWC) reefs across seasonal changes.
+
+Based on the compiled dataset of abiotic (bathymetric assessments, benthic oxygen uptake measurements, sediment samples) and biotic parameters (macrofauna samples, image data), a comprehensive comparison of macro- and megafauna community will contribute to a better understanding of benthic biodiversity and its driving parameters.

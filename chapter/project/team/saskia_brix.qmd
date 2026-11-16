@@ -1,0 +1,17 @@
+---
+pagetitle: "Prof. Dr. Saskia Brix"
+name_first: Saskia
+name_last: Brix
+name_title: "Prof. Dr."
+affiliation:
+  - name: "Benthic Biogeography, German Centre for Marine Biodiversity Research (DZMB), Senckenberg am Meer"
+    url: "https://www.senckenberg.de/en/research/institutes-overview/sam/dzmb/sam-dzmb-sec-benthic-biogeography/"
+  - name: "University of Hamburg"
+    url: "https://www.biologie.uni-hamburg.de"
+positiion: 'Head of Working Group "Benthic Biogeography", Professor at University of Hamburg'
+description_short: "Principle Investigator, Macrofauna (Isopoda)"
+profile_picture: "/assets/profile/saskia_brix.jpg"
+# profile_picture_credit: ""
+---
+
+{{< include /chapter/project/team/_team_template.qmd >}}

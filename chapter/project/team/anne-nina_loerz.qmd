@@ -1,0 +1,15 @@
+---
+pagetitle: "Dr. habil. Anne-Nina Lörz"
+name_first: Anne-Nina
+name_last: Lörz
+name_title: "Dr. habil."
+affiliation:
+  - name: "Benthic Biogeography, German Centre for Marine Biodiversity Research (DZMB), Senckenberg am Meer"
+    url: "https://www.senckenberg.de/en/research/institutes-overview/sam/dzmb/sam-dzmb-sec-benthic-biogeography/"
+positiion: "Researcher"
+description_short: "Macrofauna (Amphipoda)"
+profile_picture: "/assets/profile/annenina_loerz.jpg"
+profile_picture_credit: ""
+---
+
+{{< include /chapter/project/team/_team_template.qmd >}}

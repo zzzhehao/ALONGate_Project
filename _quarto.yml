@@ -1,0 +1,78 @@
+project:
+  type: website
+  execute-dir: project
+  render: 
+    - "*.qmd"
+    - "!docs/*"
+resources: 
+    - "*"
+    - "!.git/"
+    - "!.github/"
+    - "!.quarto/"
+    - "!assets/resources"
+    - "!assets/vid"
+
+website:
+  title: "ALONGate"
+  favicon: "assets/logo/MSM145_transparent.png"
+  site-url: https://zzzhehao.github.io/ALONGate_Project
+  site-path: ./
+  description: "ALONGate Project: WCMB 2026"
+  draft-mode: unlinked
+
+  navbar: 
+    logo: "assets/logo/MSM145_transparent.png"
+    left: 
+      - text: "Project"
+        menu:
+          - text: "Vision"
+            href: chapter/project/vision.qmd
+          - text: "Team"
+            href: chapter/project/team.qmd
+          - text: "Expeditions"
+            href: chapter/project/expeditions.qmd
+      - text: "Research"
+        menu: 
+          - text: "WCMB Talk (Kohlenbach)"
+            href: chapter/research/kohlenbach-talk.qmd
+          - text: "Benthic Lander Observatory System"
+            href: chapter/research/blos.qmd
+          - text: "Benthic Survey"
+            href: chapter/research/benthic-survey.qmd
+          - text: "Cumaceans in the Deep Arctic Ocean"
+            href: chapter/research/arctic-cumacean.qmd
+          - text: "New and Old Isopods"
+            href: chapter/research/new-old-isopods.qmd
+      - text: "Impact"
+        menu:
+          - text: "Workshops"
+            href: chapter/impact/workshops.qmd
+          - text: "Collaborations"
+            href: chapter/impact/collaborations.qmd
+    search: true
+    background: transparent
+
+format:
+  html:
+    highlight-style: atom-one-dark
+    theme: 
+      dark: [theme/dark.scss]
+      light: [theme/light.scss]
+    toc: true
+
+affiliations:
+  - id: UHH
+    name: University of Hamburg
+    url: https://www.biologie.uni-hamburg.de/en/einrichtungen/imf.html
+  - id: DZMB
+    name: Benthic Biogeography, DZMB, Senckenberg am Meer
+    url: https://www.senckenberg.de/en/research/institutes-overview/sam/dzmb/sam-dzmb-sec-benthic-biogeography/
+  - id: AWI
+    name: Alfred Wegener Institute Helmholtz Centre for Polar and Marine Research (AWI)
+    url: https://www.awi.de/en/
+
+
+lightbox: true
+execute:
+  freeze: auto
+  echo: false

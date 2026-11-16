@@ -1,0 +1,166 @@
+---
+title: "Team"
+menutitle: "Our Team"
+format: 
+  html:
+    page-layout: full
+---
+
+```{=html}
+<style>
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+  gap: 1.75rem;
+  margin-top: 1.5rem;
+  max-width: 1106px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+
+.team-card {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid #e5e7eb; */
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #ffffff;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.team-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.team-card-img-link {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  background-color: transparent;
+}
+
+.team-card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border-radius: 8px;
+}
+
+.team-card-body {
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.team-card-name {
+  margin: 0 0 0.35rem 0;
+  font-size: 1.2rem;
+  color: var(--accent-main);
+  line-height: 1.3;
+}
+
+.team-card-name a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.team-card-name a:hover {
+  text-decoration: underline;
+}
+
+.team-card-position {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #4b5563;
+  margin-bottom: 0.75rem;
+}
+
+.team-card-desc {
+  margin: 0;
+  font-size: 0.92rem;
+  line-height: 1.5;
+  color: #374151;
+  text-align: left;
+}
+</style>
+```
+
+```{r}
+#| echo: false
+#| output: false
+library(tidyverse)
+library(htmltools)
+path.team <- list.files("chapter/project/team", full.names = T) %>% stringr::str_subset("(?<!template)\\.qmd$")
+
+path.team.sorted <- c(path.team %>% stringr::str_subset("saskia_brix"), path.team %>% stringr::str_subset("saskia_brix", T) %>% sort())
+
+frontmatter.ls <- map(path.team.sorted, ~zhutilsr::read_md_frontmatter(.x) %>% yaml::yaml.load())
+```
+
+```{r}
+#| echo: false
+#| output: false
+
+# Pair each person's frontmatter with their corresponding page link
+team_cards <- map2(frontmatter.ls, path.team.sorted, function(person, path) {
+  
+  # Construct full name (filtering out NULL or empty title/name parts)
+  name_parts <- c(person$name_title, person$name_first, person$name_last)
+  name_parts <- name_parts[!is.na(name_parts) & nzchar(trimws(name_parts))]
+  full_name <- paste(name_parts, collapse = " ")
+  
+  # Convert .qmd path to relative .html link (adjust if your site structure differs)
+  profile_url <- str_replace(basename(path), "\\.qmd$", ".html") %>% paste0("./team/", .)
+  
+  # Build the card HTML
+  div(
+    class = "team-card",
+    
+    # Profile Image (linked to their individual page)
+    if (!is.null(person$profile_picture) && nzchar(person$profile_picture)) {
+      a(
+        href = profile_url,
+        class = "team-card-img-link",
+        img(
+          src = person$profile_picture,
+          alt = paste("Portrait of", full_name),
+          class = "team-card-img"
+        )
+      )
+    },
+    
+    # Text Content
+    div(
+      class = "team-card-body",
+      h3(
+        class = "team-card-name",
+        a(href = profile_url, full_name)
+      ),
+      if (!is.null(person$positiion) && nzchar(person$positiion)) {
+        div(class = "team-card-position", person$positiion)
+      },
+      if (!is.null(person$description_short) && nzchar(person$description_short)) {
+        p(class = "team-card-desc", person$description_short)
+      }
+    )
+  )
+})
+
+# Render the responsive grid container
+
+```
+
+```{r}
+#| echo: false
+#| output: asis
+div(class = "team-grid", team_cards)
+```
+
+
