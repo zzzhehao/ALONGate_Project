@@ -1,0 +1,17 @@
+---
+pagetitle: "Carolin Uhlir"
+name_first: Carolin
+name_last: Uhlir
+name_title: ""
+affiliation:
+  - name: "Benthic Biogeography, German Centre for Marine Biodiversity Research (DZMB), Senckenberg am Meer"
+    url: "https://www.senckenberg.de/en/research/institutes-overview/sam/dzmb/sam-dzmb-sec-benthic-biogeography/"
+  - name: "University of Hamburg"
+    url: "https://www.biologie.uni-hamburg.de"
+positiion: "PhD Student"
+description_short: "Benthic sampling, Macrofauna (Cumacea, Pycnogonida)"
+profile_picture: "/assets/profile/carolin_uhlir.jpg"
+profile_picture_credit: ""
+---
+
+{{< include /chapter/project/team/_team_template.qmd >}}

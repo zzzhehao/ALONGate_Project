@@ -30,9 +30,18 @@ strong {
     font-weight: var(--fw-bold) !important;
 }
 
+h1 {
+    font-size: 2rem;
+    margin-top: -5px;
+}
+
+.quarto-title {
+    margin-bottom: 60px;
+}
+
 h2 {
-    font-size: 1.8rem;
-    padding-top: 1.5em;
+    font-size: 1.7rem;
+    // padding-top: 1.5em;
     margin-bottom: 1.4em;
     border-bottom: 1px solid var(--border-color);
 }
@@ -97,6 +106,11 @@ img {
 
 #quarto-margin-sidebar .nav-link {
     font-weight: var(--fw-light);
+}
+
+#quarto-margin-sidebar {
+    margin-top: 10px;
+    padding-top: 10px;
 }
 
 #quarto-appendix.default {
@@ -414,6 +428,7 @@ div.listing-category {
     position: relative;
     width: 100%;
     aspect-ratio: 3 / 2;
+    margin-top: 20px;
     // background-color: var(--roulette-bg);
     overflow: hidden;
 }
@@ -443,7 +458,7 @@ div.listing-category {
     position: relative;
     overflow: hidden;
     /* Hide scrollbars */
-    padding: 20px 0;
+    padding-top: 20px;
     padding-left: 15px;
 
     /* --- NEW: INTERACTION CURSORS --- */

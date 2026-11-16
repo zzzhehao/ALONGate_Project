@@ -1,0 +1,15 @@
+---
+pagetitle: "Hauke Pape"
+name_first: Hauke
+name_last: Pape
+name_title: ""
+affiliation:
+  - name: "Benthic Biogeography, German Centre for Marine Biodiversity Research (DZMB), Senckenberg am Meer"
+    url: "https://www.senckenberg.de/en/research/institutes-overview/sam/dzmb/sam-dzmb-sec-benthic-biogeography/"
+positiion: "Mechatronics Engineer"
+description_short: "BLOS Design & Engineering"
+profile_picture: "/assets/profile/hauke_pape.jpg"
+profile_picture_credit: ""
+---
+
+{{< include /chapter/project/team/_team_template.qmd >}}

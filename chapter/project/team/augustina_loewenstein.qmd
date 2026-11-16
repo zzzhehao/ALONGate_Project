@@ -1,0 +1,15 @@
+---
+pagetitle: "Augustina Löwenstein"
+name_first: Augustina
+name_last: Löwenstein
+name_title: ""
+affiliation:
+  - name: "University of Hamburg"
+    url: "https://www.biologie.uni-hamburg.de"
+positiion: "PhD Student"
+description_short: "Cold Water Coral Associated Fauna (Isopoda), Population Genomics"
+profile_picture: "/assets/profile/augustina_loewenstein.jpeg"
+profile_picture_credit: ""
+---
+
+{{< include /chapter/project/team/_team_template.qmd >}}

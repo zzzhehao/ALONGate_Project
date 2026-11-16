@@ -1,0 +1,35 @@
+---
+title: "A Long-term Observatory on the Seafloor"
+menutitle: "Benthic Lander Observatory System"
+---
+
+BLOS, stands for **Benthic Lander Observatory System**, is a customized system designed for data collection on the seafloor for a long period of time. Currently, three of such systems have been successfully deployed around Iceland during the MSM145 expedition in 2026. 
+
+[A map with points of BLOS]
+
+## How are they built?
+
+- ~ 5 sentences
+- Our BLOS are built based on prototype from ...
+- (Description) Energy, camera, computer, lighting modules are assembled on a metal frame ...
+- We have made modification to ... (if any)
+- Any speciality on the housing, e.g. special material for stable deployment in the deep sea
+- Every 12 hours, the BLOS takes 60 seconds of videos, and this will be carried out for one year until the next visit. 
+
+[Picture roulette for BLOS]
+
+## Deployment and Recovery
+
+**Is the Wifi module originally from us or the Ifremer has used it previously? If it's from us we need to sell this novelty.**
+
+Our BLOS are specifically designed for deployment and recovering using GEOMAR's _ROV Phoca_, so that the entire system can be loaded onto the ROV's porch at one go and brought to the desired spot on the seafloor. Our engineers has came up with a creative solution for setting up the systems: a deep-sea Wi-Fi. 
+
+The ROV and the BLOS each hold a Wi-Fi module that allows real-time data transmission from BLOS computer to the ROV. Once the ROV reached the deployment site, the positioning, lighting and camera configuration will be carried out by controlling the BLOS directly from the mission control onboard the vessel. When all settings are done, the Wi-Fi module from the BLOS will be removed from ROV container, detaching the two systems completely. 
+
+[BLOS image onboard, wifi module] 
+
+<u>***Any read more links?***</u>
+
+<hr>
+
+Editor: Zhehao Hu

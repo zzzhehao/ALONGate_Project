@@ -1,0 +1,197 @@
+---
+pagetitle: "Zhehao Hu"
+name_first: Zhehao
+name_last: Hu
+name_title: ""
+affiliation:
+  - name: "Benthic Biogeography, German Centre for Marine Biodiversity Research (DZMB), Senckenberg am Meer"
+    url: "https://www.senckenberg.de/en/research/institutes-overview/sam/dzmb/sam-dzmb-sec-benthic-biogeography/"
+positiion: "Research Assistant"
+description_short: "ROV Biological Survey, DNA Barcoding, Macrofauna (Isopoda)"
+profile_picture: "/assets/profile/zhehao_hu.jpg"
+profile_picture_credit: "Alex Ingle"
+---
+<!-- 
+```{=html}
+<style>
+/* Mobile-first layout: stacks items, image on top naturally */
+  .profile-header-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 2.5rem;
+    padding-bottom: 2rem;
+    /* border-bottom: 1px solid var(--border-color); */
+  }
+
+  .profile-image-block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Right-justifies the credit text */
+  }
+
+  .profile-photo {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5%;
+    border: 3px solid var(--accent-main);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    margin-bottom: 0.5rem;
+  }
+
+  /* New style for the photo credit */
+  .profile-credit {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    margin: 8px 0 0 0;
+    max-width: 200px; /* Constrains text width to match the photo */
+    text-align: right;
+  }
+
+  /* Desktop layout: Side-by-side, swaps the order */
+  @media (min-width: 768px) {
+    .profile-header-container {
+      flex-direction: row;
+      align-items: flex-start;
+    }
+    .profile-info {
+      flex: 1;
+      order: 1; /* Forces text to the left */
+      min-width: 250px;
+    }
+    .profile-image-block {
+      order: 2; /* Forces image to the right */
+      flex-shrink: 0;
+    }
+  }
+
+  .profile-header-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 2.5rem;
+    padding-bottom: 2rem;
+    /* border-bottom: 1px solid var(--border-color); */
+  }
+  .profile-photo {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%%;
+    border: 3px solid var(--accent-main);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    flex-shrink: 0;
+  }
+  .profile-info {
+    flex: 1;
+    min-width: 250px;
+  }
+  .profile-fullname {
+    font-size: 2.5rem;
+    font-weight: var(--fw-bold);
+    color: var(--text-main);
+    margin: 0 0 5px 0;
+    line-height: 1.2;
+  }
+  .profile-position {
+    font-size: 1.2rem;
+    font-weight: var(--fw-medium);
+    color: var(--accent-main);
+    margin: 0 0 10px 0;
+  }
+  .profile-affiliations {
+    font-size: 1rem;
+    margin: 0 0 15px 0;
+  }
+  .profile-affil-link {
+    color: var(--text-main);
+    text-decoration: underline;
+    text-decoration-color: var(--accent-main);
+    text-underline-offset: 3px;
+  }
+  .profile-affil-link:hover {
+    color: var(--accent-hover);
+  }
+  .profile-divider {
+    color: var(--text-muted);
+    margin: 0 5px;
+  }
+  .profile-short-desc {
+    font-size: 1.05rem;
+    font-style: italic;
+    color: var(--text-muted);
+    margin: 0;
+    line-height: 1.5;
+  }
+</style>
+```
+
+```{r}
+#| echo: false
+#| output: false
+#| message: false
+#| warning: false
+library(tidyverse)
+
+meta <- rmarkdown::metadata
+title      <- meta$name_title %||% ""
+first_name <- meta$name_first %||% ""
+last_name  <- meta$name_last %||% ""
+full_name  <- str_squish(paste(title, first_name, last_name))
+
+position   <- meta$position %||% "" 
+short_desc <- meta$description_short %||% ""
+img_path   <- meta$profile_picture %||% ""
+
+# Extract credit safely (returns empty string if missing)
+credit_raw <- if (is.null(meta[["profile_picture_credit"]])) "" else meta[["profile_picture_credit"]]
+credit_html <- if (credit_raw != "") sprintf('<p class="profile-credit">&copy; %s</p>', credit_raw) else ""
+
+affil_html <- ""
+if (!is.null(meta$affiliation)) {
+  affil_html <- purrr::map_chr(meta$affiliation, \(x) {
+    name <- x$name %||% ""
+    url  <- x$url %||% ""
+    
+    if (url != "") {
+      sprintf('<a href="%s" target="_blank" class="profile-affil-link">%s</a>', url, name)
+    } else {
+      name
+    }
+  }) %>% paste(collapse = " <span class='profile-divider'>&bull;</span> ")
+}
+
+# HTML Generation: Image block comes first for mobile, CSS swaps it on desktop
+html_out <- sprintf('
+<div class="profile-header-container">
+<div class="profile-image-block">
+<img src="%s" alt="Profile Picture of %s" class="profile-photo">
+%s
+</div>
+<div class="profile-info">
+<h2 class="profile-fullname">%s</h2>
+<p class="profile-position">%s</p>
+<div class="profile-affiliations">%s</div>
+<p class="profile-short-desc">%s</p>
+</div>
+</div>
+', 
+img_path, full_name, credit_html, full_name, position, affil_html, short_desc)
+```
+
+```{r}
+#| echo: false
+#| output: asis
+#| message: false
+#| warning: false
+cat("```{=html}\n")
+cat(html_out)
+cat("\n```\n")
+``` 
+-->
+
+{{< include /chapter/project/team/_team_template.qmd >}}
+
+Further introduction
