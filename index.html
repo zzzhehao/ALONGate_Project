@@ -40,6 +40,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-8c3babc857b20ed7fdd047e69b08a70c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -84,13 +87,13 @@ ul.task-list li input[type="checkbox"] {
 
 
 <!-- looping video background -->
-<!-- <video autoplay loop muted playsinline class="bg-video">
+<video autoplay="" loop="" muted="" playsinline="" class="bg-video">
     <source src="./assets/resources/website_carousel.mov" type="video/mp4">
-</video> -->
+</video>
 
 <style>
     /* looping video background start */
-    /* .bg-video {
+    .bg-video {
         position: fixed;
         top: 0;
         left: 0;
@@ -116,15 +119,48 @@ ul.task-list li input[type="checkbox"] {
         font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
         color: white !important;
         margin: 0;
-        min-height: 100vh;
+        height: 100vh;          /* Locks the body to exactly the window height */
+        overflow: hidden;       /* Disables overall page scrolling */
+        /* display: flex; */
+        /* flex-direction: column; Stacks the scroll container and new footer vertically */
+        /* align-items: center;    Centers the containers horizontally */
+    }
+
+    /* New wrapper to bypass Quarto's structural tags */
+    .fullscreen-wrapper {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
         display: flex;
-        justify-content: center;
-        align-items: flex-start;
-    } */
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-scroll-container {
+        width: 100%;
+        flex-grow: 1;
+        overflow-y: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .new-fixed-footer {
+        width: 100%;
+        flex-shrink: 0;
+        background: transparent;
+        padding: 15px 20px;
+        text-align: center;
+        font-size: 0.85rem;
+        color: rgba(255, 255, 255, 0.8);
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+    }
     /* looping video background end */
 
     /* static image background start */
-    body {
+    /* body {
         background: linear-gradient(rgba(51, 51, 51, 0.5), rgba(51, 51, 51, 0.5)), url("./assets/img/_ZPA2002.jpg") no-repeat center center fixed;
         background-size: cover;
         font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
@@ -134,7 +170,7 @@ ul.task-list li input[type="checkbox"] {
         display: flex;
         justify-content: center;
         align-items: flex-start;
-    }
+    } */
     /* static image background end */
 
     .linktree-container {
@@ -176,9 +212,9 @@ ul.task-list li input[type="checkbox"] {
         min-height: 90px;
         margin-bottom: 16px;
         border-radius: 20px;
-        font-size: 1.5rem;
-        font-weight: 600;
-        border: 1px solid rgba(255, 255, 255, 0.3);
+        font-size: 1.1rem;
+        font-weight: 500;
+        border: 1px solid rgba(255, 255, 255, 0.41);
         transition: all 0.3s ease;
         backdrop-filter: blur(10px);
         -webkit-backdrop-filter: blur(10px);
@@ -195,8 +231,9 @@ ul.task-list li input[type="checkbox"] {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        text-align: left;
         margin: 0;
-        line-height: 1;
+        line-height: 1.1;
     }
 
     .btn-thumb {
@@ -251,19 +288,51 @@ ul.task-list li input[type="checkbox"] {
         max-width: 450px;
         text-align: center;
     }
+
+    .ctext-container-subtitle {
+        width: 100%;
+        max-width: 450px;
+        margin-top: 20px;
+        padding-top: 20px;
+        text-align: center;
+        font-weight: 550;
+        font-size: 1.4rem;
+    }
 </style>
-<p><br><br><br></p>
+<!-- START FULLSCREEN WRAPPER -->
+<div class="fullscreen-wrapper">
+<div class="main-scroll-container">
+<p><br><br></p>
 <div class="linktree-container">
 <!-- Replace 'logo.png' with your actual project logo or a nice icon -->
-<p><img src="assets/logo/MSM145_transparent.png" class="profile-pic img-fluid"></p>
+<p><a href="assets/logo/MSM145_transparent.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="assets/logo/MSM145_transparent.png" class="profile-pic img-fluid"></a></p>
 <div class="project-title">
 <p>ALONGate</p>
 </div>
 <div class="project-desc">
 <p><u><strong>A</strong></u> <u><strong>L</strong></u>ongterm <u><strong>O</strong></u>bservatory of the <u><strong>N</strong></u>orth Atlantic <u><strong>Gate</strong></u>way to the Arctic</p>
 </div>
-<p><a href="./chapter/research/new-old-isopods.html" class="link-btn"><img src="assets/img/Disconectes Coxalis_19122_f_V_300925.webp" class="btn-thumb img-fluid"> <span class="btn-text">New and Old Isopods</span></a></p>
+<div class="ctext-container-subtitle">
+<p>Project</p>
 </div>
+<p><a href="./chapter/project/vision.html" class="link-btn"><img src="assets/img/ocisopod-_ZZ87432-ZH.webp" class="btn-thumb img-fluid"> <span class="btn-text">Vision</span></a></p>
+<p><a href="./chapter/project/team.html" class="link-btn"><img src="assets/img/ocisopod-_ZZ87432-ZH.webp" class="btn-thumb img-fluid"> <span class="btn-text">Our Team</span></a></p>
+<p><a href="./chapter/project/expeditions.html" class="link-btn"><img src="assets/img/MSM_drone.webp" class="btn-thumb img-fluid"> <span class="btn-text">Expeditions</span></a></p>
+<div class="ctext-container-subtitle">
+<p>Research</p>
+</div>
+<p><a href="./chapter/research/kohlenbach-talk.html" class="link-btn"><img src="assets/img/Disconectes Coxalis_19122_f_V_300925.webp" class="btn-thumb img-fluid"> <span class="btn-text">Our WCMB Talk</span></a></p>
+<p><a href="./chapter/research/blos.html" class="link-btn"><img src="assets/img/2026-07-31_17-05-53_MSMerian_MSM145_039-1ROV03_Logo.webp" class="btn-thumb img-fluid"> <span class="btn-text">Benthic Lander Observatory System</span></a></p>
+<p><a href="./chapter/research/benthic-survey.html" class="link-btn"><img src="assets/img/2026-07-31_17-05-53_MSMerian_MSM145_039-1ROV03_Logo.webp" class="btn-thumb img-fluid"> <span class="btn-text">Benthic Survey</span></a></p>
+<p><a href="./chapter/research/arctic-cumacean.html" class="link-btn"><img src="assets/img/Disconectes Coxalis_19122_f_V_300925.webp" class="btn-thumb img-fluid"> <span class="btn-text">Cumaceans in the Deep Arctic Ocean</span></a></p>
+<p><a href="./chapter/research/new-old-isopods.html" class="link-btn"><img src="assets/img/Disconectes Coxalis_19122_f_V_300925.webp" class="btn-thumb img-fluid"> <span class="btn-text">New and Old Isopods</span></a></p>
+<div class="ctext-container-subtitle">
+<p>Impact</p>
+</div>
+<p><a href="./chapter/impact/workshops.html" class="link-btn"><img src="assets/img/ocisopod-_ZZ87376-ZH.webp" class="btn-thumb img-fluid"> <span class="btn-text">Workshops</span></a></p>
+<p><a href="./chapter/impact/collaborations.html" class="link-btn"><img src="assets/img/MSM145_artificialreefprep.jpg" class="btn-thumb img-fluid"> <span class="btn-text">Collaboations</span></a></p>
+</div>
+<!-- linktree_container -->
 <div class="ctext-container">
 <p>This project is supported by:</p>
 </div>
@@ -288,9 +357,14 @@ ul.task-list li input[type="checkbox"] {
 ">
 <p style="margin: 0; font-size: 0.7rem;">
     Site built with Quarto by <a href="https://zzzhehao.github.io/" style="color: inherit; text-decoration: underline;">Zhehao Hu</a>. <br>
-    Source code available at <a href="https://github.com/zzzhehao/ALONGate_2026_WCMB" style="color: inherit; text-decoration: underline;">github.com</a>.
+    Source code available at <a href="https://github.com/zzzhehao/ALONGate_Project/" style="color: inherit; text-decoration: underline;">github.com</a>.
 </p>
 </footer>
+</div>
+<div class="new-fixed-footer">
+    <p style="margin: 0; font-weight: 200; font-size: 0.7rem;">Background video was recorded during MSM145 expedition by <i>ROV Phoca</i> © GEOMAR.</p>
+</div>
+</div>
 
 
 
@@ -713,6 +787,38 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 

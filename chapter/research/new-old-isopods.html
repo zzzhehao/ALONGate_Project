@@ -40,8 +40,11 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-57a92833092fd6dc0d7710b6bdfff9c5.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-6ec8314ec74e00ea756e28bc4a7d449f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark-213f7b9691e248bb724e83e6c4cece84.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-43c870dd41a94a2420221319fd82e825.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-1f49816a9fac16bbf3ee27690f2bfd2c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,6 +74,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
+<link rel="stylesheet" href="../../chapter/article.css">
 </head>
 
 <body class="nav-fixed">
@@ -106,6 +110,10 @@ ul.task-list li input[type="checkbox"] {
     <a class="dropdown-item" href="../../chapter/project/team.html">
  <span class="dropdown-text">Team</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="../../chapter/project/expeditions.html">
+ <span class="dropdown-text">Expeditions</span></a>
+  </li>  
     </ul>
   </li>
   <li class="nav-item dropdown ">
@@ -114,11 +122,23 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-research">    
         <li>
-    <a class="dropdown-item" href="../../chapter/research/blos.html">
- <span class="dropdown-text">BLOS</span></a>
+    <a class="dropdown-item" href="../../chapter/research/kohlenbach-talk.html">
+ <span class="dropdown-text">WCMB Talk (Kohlenbach)</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../chapter/new-old-isopods.qmd">
+    <a class="dropdown-item" href="../../chapter/research/blos.html">
+ <span class="dropdown-text">Benthic Lander Observatory System</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../chapter/research/benthic-survey.html">
+ <span class="dropdown-text">Benthic Survey</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../chapter/research/arctic-cumacean.html">
+ <span class="dropdown-text">Cumaceans in the Deep Arctic Ocean</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../chapter/research/new-old-isopods.html">
  <span class="dropdown-text">New and Old Isopods</span></a>
   </li>  
     </ul>
@@ -155,7 +175,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#new-speices-under-a-new-genus" id="toc-new-speices-under-a-new-genus" class="nav-link active" data-scroll-target="#new-speices-under-a-new-genus">New speices under a new genus</a></li>
+  <li><a href="#new-jaera-speices-under-a-new-genus" id="toc-new-jaera-speices-under-a-new-genus" class="nav-link active" data-scroll-target="#new-jaera-speices-under-a-new-genus">New <em>Jaera</em> speices under a new genus</a></li>
   <li><a href="#disconectes-coxalis-kussakin-1983" id="toc-disconectes-coxalis-kussakin-1983" class="nav-link" data-scroll-target="#disconectes-coxalis-kussakin-1983"><em>Disconectes coxalis</em> Kussakin, 1983</a></li>
   </ul>
 </nav>
@@ -173,26 +193,6 @@ ul.task-list li input[type="checkbox"] {
   <div class="quarto-title-meta-heading">Authors</div>
   <div class="quarto-title-meta-heading">Affiliations</div>
   
-    <div class="quarto-title-meta-contents">
-    <p class="author">Katharina Kohlenbach </p>
-  </div>
-  <div class="quarto-title-meta-contents">
-        <p class="affiliation">
-            <a href="https://www.awi.de/en/">
-            Alfred Wegener Institute Helmholtz Centre for Polar and Marine Research (AWI)
-            </a>
-          </p>
-      </div>
-    <div class="quarto-title-meta-contents">
-    <p class="author">Zhehao Hu </p>
-  </div>
-  <div class="quarto-title-meta-contents">
-        <p class="affiliation">
-            <a href="https://www.senckenberg.de/en/research/institutes-overview/sam/dzmb/sam-dzmb-sec-benthic-biogeography/">
-            Benthic Biogeography, DZMB, Senckenberg am Meer
-            </a>
-          </p>
-      </div>
   </div>
 
 <div class="quarto-title-meta">
@@ -207,19 +207,19 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="new-speices-under-a-new-genus" class="level2">
-<h2 class="anchored" data-anchor-id="new-speices-under-a-new-genus">New speices under a new genus</h2>
+<section id="new-jaera-speices-under-a-new-genus" class="level2">
+<h2 class="anchored" data-anchor-id="new-jaera-speices-under-a-new-genus">New <em>Jaera</em> speices under a new genus</h2>
 <p>A new isopod species was discovered at the Nidhogg chimney (3016 m) in the Jøtul vent field and the deep-sea Amundsen Basin (4156 m) in the Artic Ocean. Based on the morphological and molecular evidence, a new genus will be erected including the previously described <em>Jaera tyleri</em> Malyutina &amp; Brandt, 2014. Both species from the newly erected genus share a set of traits, that significantly differ from the rest of the typically shallow-water <em>Jaera</em> species. Two of such characters stood out: they were both sampled at abyssal depth, and presumably both feed on bacteria. While <em>J. tyleri</em> was collected on whale bones and grazing on the bacterial community on the bones, the new species were found at an active hydrothermal vent site and presumably feeds on the chemosynthetic bacteria.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="../../assets/img/Bathyjaera_giselae_clsm_female.webp" class="img-fluid figure-img" style="width:70.0%"></p>
+<p><a href="../../assets/img/Bathyjaera_giselae_clsm_female.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="CLSM scans of the new isopod species in dorsal and ventral views (Kohlenbach et al., under review)"><img src="../../assets/img/Bathyjaera_giselae_clsm_female.webp" class="img-fluid figure-img" style="width:70.0%" alt="CLSM scans of the new isopod species in dorsal and ventral views (Kohlenbach et al., under review)"></a></p>
 <figcaption>CLSM scans of the new isopod species in dorsal and ventral views (Kohlenbach et al., <em>under review</em>)</figcaption>
 </figure>
 </div>
 <p>The necessity of a taxonomic revision of <em>Jaera</em> Leach, 1814 has already been recognized, as well as the enclosing family Janiridae G.O. Sars, 1897, which is proven to be polyphyletic. This study contributes the first step in resolving the systematics of these groups and our understanding to the ecology of isopods inhabiting chemosynthetic environments.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="../../assets/img/Bathyjaera giselae Verbreitung.webp" class="img-fluid figure-img" style="width:70.0%"></p>
+<p><a href="../../assets/img/Bathyjaera giselae Verbreitung.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Stations of the sampling campaign, red points indicates the locations where the new species was found (Kohlenbach et al., under review)"><img src="../../assets/img/Bathyjaera giselae Verbreitung.webp" class="img-fluid figure-img" style="width:70.0%" alt="Stations of the sampling campaign, red points indicates the locations where the new species was found (Kohlenbach et al., under review)"></a></p>
 <figcaption>Stations of the sampling campaign, red points indicates the locations where the new species was found (Kohlenbach et al., <em>under review</em>)</figcaption>
 </figure>
 </div>
@@ -236,7 +236,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="../../assets/img/Disconectes Coxalis_19122_f_L_300925.webp" class="img-fluid figure-img"></p>
+<p><a href="../../assets/img/Disconectes Coxalis_19122_f_L_300925.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Lateral view"><img src="../../assets/img/Disconectes Coxalis_19122_f_L_300925.webp" class="img-fluid figure-img" alt="Lateral view"></a></p>
 <figcaption>Lateral view</figcaption>
 </figure>
 </div>
@@ -244,7 +244,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="../../assets/img/Disconectes Coxalis_19122_f_V_300925.webp" class="img-fluid figure-img"></p>
+<p><a href="../../assets/img/Disconectes Coxalis_19122_f_V_300925.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Ventral view"><img src="../../assets/img/Disconectes Coxalis_19122_f_V_300925.webp" class="img-fluid figure-img" alt="Ventral view"></a></p>
 <figcaption>Ventral view</figcaption>
 </figure>
 </div>
@@ -254,6 +254,8 @@ ul.task-list li input[type="checkbox"] {
 <figcaption style="text-align: center; margin-top: -10px;">
 CLSM scans of <em>D. coxalis</em> (Kohlenbach et al., <em>in prep</em>)
 </figcaption>
+<hr>
+<p>Editor: Zhehao Hu, Katharina Kohlenbach</p>
 
 
 </section>
@@ -821,6 +823,38 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>team – ALONGate</title>
+<title>Team – ALONGate</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -40,8 +40,8 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-57a92833092fd6dc0d7710b6bdfff9c5.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-6ec8314ec74e00ea756e28bc4a7d449f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark-213f7b9691e248bb724e83e6c4cece84.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-43c870dd41a94a2420221319fd82e825.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-1f49816a9fac16bbf3ee27690f2bfd2c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,6 +71,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
+<link rel="stylesheet" href="../../chapter/article.css">
 </head>
 
 <body class="nav-fixed">
@@ -106,6 +107,10 @@ ul.task-list li input[type="checkbox"] {
     <a class="dropdown-item" href="../../chapter/project/team.html">
  <span class="dropdown-text">Team</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="../../chapter/project/expeditions.html">
+ <span class="dropdown-text">Expeditions</span></a>
+  </li>  
     </ul>
   </li>
   <li class="nav-item dropdown ">
@@ -114,11 +119,23 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-research">    
         <li>
-    <a class="dropdown-item" href="../../chapter/research/blos.html">
- <span class="dropdown-text">BLOS</span></a>
+    <a class="dropdown-item" href="../../chapter/research/kohlenbach-talk.html">
+ <span class="dropdown-text">WCMB Talk (Kohlenbach)</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../chapter/new-old-isopods.qmd">
+    <a class="dropdown-item" href="../../chapter/research/blos.html">
+ <span class="dropdown-text">Benthic Lander Observatory System</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../chapter/research/benthic-survey.html">
+ <span class="dropdown-text">Benthic Survey</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../chapter/research/arctic-cumacean.html">
+ <span class="dropdown-text">Cumaceans in the Deep Arctic Ocean</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../chapter/research/new-old-isopods.html">
  <span class="dropdown-text">New and Old Isopods</span></a>
   </li>  
     </ul>
@@ -147,18 +164,232 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
         
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content column-page" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Team</h1>
+</div>
 
 
+<div class="quarto-title-meta-author column-page">
+  <div class="quarto-title-meta-heading">Authors</div>
+  <div class="quarto-title-meta-heading">Affiliations</div>
+  
+  </div>
+
+<div class="quarto-title-meta column-page">
+
+      
+  
+    
+  </div>
+  
 
 
+</header>
+
+
+<style>
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+  gap: 1.75rem;
+  margin-top: 1.5rem;
+  max-width: 1106px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+
+.team-card {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid #e5e7eb; */
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #ffffff;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.team-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.team-card-img-link {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  background-color: transparent;
+}
+
+.team-card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border-radius: 8px;
+}
+
+.team-card-body {
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.team-card-name {
+  margin: 0 0 0.35rem 0;
+  font-size: 1.2rem;
+  color: var(--accent-main);
+  line-height: 1.3;
+}
+
+.team-card-name a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.team-card-name a:hover {
+  text-decoration: underline;
+}
+
+.team-card-position {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #4b5563;
+  margin-bottom: 0.75rem;
+}
+
+.team-card-desc {
+  margin: 0;
+  font-size: 0.92rem;
+  line-height: 1.5;
+  color: #374151;
+  text-align: left;
+}
+</style>
+<div class="team-grid">
+<div class="team-card">
+<a href="./team/saskia_brix.html" class="team-card-img-link">
+<img src="../../assets/profile/saskia_brix.jpg" alt="Portrait of Prof. Dr. Saskia Brix" class="team-card-img">
+</a>
+<div class="team-card-body">
+<h3 class="team-card-name anchored">
+<a href="./team/saskia_brix.html">Prof. Dr. Saskia Brix</a>
+</h3>
+<div class="team-card-position">Head of Working Group "Benthic Biogeography", Professor at University of Hamburg</div>
+<p class="team-card-desc">Principle Investigator, Macrofauna (Isopoda)</p>
+</div>
+</div>
+<div class="team-card">
+<a href="./team/anne-nina_loerz.html" class="team-card-img-link">
+<img src="../../assets/profile/annenina_loerz.jpg" alt="Portrait of Dr. habil. Anne-Nina Lörz" class="team-card-img">
+</a>
+<div class="team-card-body">
+<h3 class="team-card-name anchored">
+<a href="./team/anne-nina_loerz.html">Dr. habil. Anne-Nina Lörz</a>
+</h3>
+<div class="team-card-position">Researcher</div>
+<p class="team-card-desc">Macrofauna (Amphipoda)</p>
+</div>
+</div>
+<div class="team-card">
+<a href="./team/augustina_loewenstein.html" class="team-card-img-link">
+<img src="../../assets/profile/augustina_loewenstein.jpeg" alt="Portrait of Augustina Löwenstein" class="team-card-img">
+</a>
+<div class="team-card-body">
+<h3 class="team-card-name anchored">
+<a href="./team/augustina_loewenstein.html">Augustina Löwenstein</a>
+</h3>
+<div class="team-card-position">PhD Student</div>
+<p class="team-card-desc">Cold Water Coral Associated Fauna (Isopoda), Population Genomics</p>
+</div>
+</div>
+<div class="team-card">
+<a href="./team/carolin_uhlir.html" class="team-card-img-link">
+<img src="../../assets/profile/carolin_uhlir.jpg" alt="Portrait of Carolin Uhlir" class="team-card-img">
+</a>
+<div class="team-card-body">
+<h3 class="team-card-name anchored">
+<a href="./team/carolin_uhlir.html">Carolin Uhlir</a>
+</h3>
+<div class="team-card-position">PhD Student</div>
+<p class="team-card-desc">Benthic sampling, Macrofauna (Cumacea, Pycnogonida)</p>
+</div>
+</div>
+<div class="team-card">
+<a href="./team/hauke_pape.html" class="team-card-img-link">
+<img src="../../assets/profile/hauke_pape.jpg" alt="Portrait of Hauke Pape" class="team-card-img">
+</a>
+<div class="team-card-body">
+<h3 class="team-card-name anchored">
+<a href="./team/hauke_pape.html">Hauke Pape</a>
+</h3>
+<div class="team-card-position">Mechatronics Engineer</div>
+<p class="team-card-desc">BLOS Design &amp; Engineering</p>
+</div>
+</div>
+<div class="team-card">
+<a href="./team/katharina_kohlenbach.html" class="team-card-img-link">
+<img src="../../assets/profile/katharina_kohlenbach.jpg" alt="Portrait of Katharina Kohlenbach" class="team-card-img">
+</a>
+<div class="team-card-body">
+<h3 class="team-card-name anchored">
+<a href="./team/katharina_kohlenbach.html">Katharina Kohlenbach</a>
+</h3>
+<div class="team-card-position">PhD Student</div>
+<p class="team-card-desc">Benthic sampling, Macrofauna (Isopoda)</p>
+</div>
+</div>
+<div class="team-card">
+<a href="./team/lilian_boehringer.html" class="team-card-img-link">
+<img src="../../assets/profile/lilian_boehringer.jpg" alt="Portrait of Dr. Lilian Böhringer" class="team-card-img">
+</a>
+<div class="team-card-body">
+<h3 class="team-card-name anchored">
+<a href="./team/lilian_boehringer.html">Dr. Lilian Böhringer</a>
+</h3>
+<div class="team-card-position">Postdoctoral Researcher</div>
+<p class="team-card-desc">OFOS, Benthic Megafauna, Image Analysis</p>
+</div>
+</div>
+<div class="team-card">
+<a href="./team/lydia_schmidt.html" class="team-card-img-link">
+<img src="../../assets/profile/lydia_schmidt.jpg" alt="Portrait of Lydia Schmidt" class="team-card-img">
+</a>
+<div class="team-card-body">
+<h3 class="team-card-name anchored">
+<a href="./team/lydia_schmidt.html">Lydia Schmidt</a>
+</h3>
+<div class="team-card-position">PhD Student</div>
+<p class="team-card-desc">Macrofauna (Ophiuroidea)</p>
+</div>
+</div>
+<div class="team-card">
+<a href="./team/zhehao_hu.html" class="team-card-img-link">
+<img src="../../assets/profile/zhehao_hu.jpg" alt="Portrait of Zhehao Hu" class="team-card-img">
+</a>
+<div class="team-card-body">
+<h3 class="team-card-name anchored">
+<a href="./team/zhehao_hu.html">Zhehao Hu</a>
+</h3>
+<div class="team-card-position">Research Assistant</div>
+<p class="team-card-desc">ROV Biological Survey, DNA Barcoding, Macrofauna (Isopoda)</p>
+</div>
+</div>
+</div>
 
 
 

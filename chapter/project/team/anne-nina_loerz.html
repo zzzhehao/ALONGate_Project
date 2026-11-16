@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>anne-nina_loerz – ALONGate</title>
+<title>Dr.&nbsp;habil. Anne-Nina Lörz – ALONGate</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -40,8 +40,8 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark-57a92833092fd6dc0d7710b6bdfff9c5.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap-6ec8314ec74e00ea756e28bc4a7d449f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../../site_libs/bootstrap/bootstrap-dark-213f7b9691e248bb724e83e6c4cece84.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../../site_libs/bootstrap/bootstrap-43c870dd41a94a2420221319fd82e825.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-dark-1f49816a9fac16bbf3ee27690f2bfd2c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,9 +71,10 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
+<link rel="stylesheet" href="../../../chapter/article.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -106,6 +107,10 @@ ul.task-list li input[type="checkbox"] {
     <a class="dropdown-item" href="../../../chapter/project/team.html">
  <span class="dropdown-text">Team</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="../../../chapter/project/expeditions.html">
+ <span class="dropdown-text">Expeditions</span></a>
+  </li>  
     </ul>
   </li>
   <li class="nav-item dropdown ">
@@ -114,11 +119,23 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-research">    
         <li>
-    <a class="dropdown-item" href="../../../chapter/research/blos.html">
- <span class="dropdown-text">BLOS</span></a>
+    <a class="dropdown-item" href="../../../chapter/research/kohlenbach-talk.html">
+ <span class="dropdown-text">WCMB Talk (Kohlenbach)</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../chapter/new-old-isopods.qmd">
+    <a class="dropdown-item" href="../../../chapter/research/blos.html">
+ <span class="dropdown-text">Benthic Lander Observatory System</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../chapter/research/benthic-survey.html">
+ <span class="dropdown-text">Benthic Survey</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../chapter/research/arctic-cumacean.html">
+ <span class="dropdown-text">Cumaceans in the Deep Arctic Ocean</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../chapter/research/new-old-isopods.html">
  <span class="dropdown-text">New and Old Isopods</span></a>
   </li>  
     </ul>
@@ -150,14 +167,121 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
+
+<style>
+/* Mobile-first layout: stacks items, image on top naturally */
+  .profile-header-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 2.5rem;
+    padding-bottom: 2rem;
+    /* border-bottom: 1px solid var(--border-color); */
+  }
+
+  .profile-image-block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Right-justifies the credit text */
+  }
+
+  .profile-photo {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 5%;
+    /* border: 3px solid var(--accent-main); */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    margin-bottom: 0.5rem;
+  }
+
+  /* New style for the photo credit */
+  .profile-credit {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    margin: 8px 0 0 0;
+    max-width: 200px; /* Constrains text width to match the photo */
+    text-align: right;
+  }
+
+  /* Desktop layout: Side-by-side, swaps the order */
+  @media (min-width: 768px) {
+    .profile-header-container {
+      flex-direction: row;
+      align-items: flex-start;
+    }
+    .profile-info {
+      flex: 1;
+      order: 1; /* Forces text to the left */
+      min-width: 250px;
+    }
+    .profile-image-block {
+      order: 2; /* Forces image to the right */
+      flex-shrink: 0;
+    }
+  }
+
+  .profile-info {
+    flex: 1;
+    min-width: 250px;
+  }
+  .profile-fullname {
+    font-size: 2.5rem;
+    font-weight: var(--fw-bold);
+    color: var(--text-main);
+    margin: 0 0 5px 0;
+    line-height: 1.2;
+  }
+  .profile-position {
+    font-size: 1.2rem;
+    font-weight: var(--fw-medium);
+    color: var(--accent-main);
+    margin: 0 0 10px 0;
+  }
+  .profile-affiliations {
+    font-size: 1rem;
+    margin: 0 0 15px 0;
+  }
+  .profile-affil-link {
+    color: var(--text-main);
+    text-decoration: underline;
+    text-decoration-color: var(--accent-main);
+    text-underline-offset: 3px;
+  }
+  .profile-affil-link:hover {
+    color: var(--accent-hover);
+  }
+  .profile-divider {
+    color: var(--text-muted);
+    margin: 0 5px;
+  }
+  .profile-short-desc {
+    font-size: 1.05rem;
+    font-style: italic;
+    color: var(--text-muted);
+    margin: 0;
+    line-height: 1.5;
+  }
+</style>
+
+<div class="profile-header-container">
+<div class="profile-image-block">
+<img src="../../../assets/profile/annenina_loerz.jpg" alt="Profile Picture of Dr. habil.<br> Anne-Nina Lörz" class="profile-photo">
+
+</div>
+<div class="profile-info">
+<h2 class="profile-fullname anchored">Dr. habil.<br> Anne-Nina Lörz</h2>
+<p class="profile-position"></p>
+<div class="profile-affiliations"><a href="https://www.senckenberg.de/en/research/institutes-overview/sam/dzmb/sam-dzmb-sec-benthic-biogeography/" target="_blank" class="profile-affil-link">Benthic Biogeography, German Centre for Marine Biodiversity Research (DZMB), Senckenberg am Meer</a></div>
+<p class="profile-short-desc">Macrofauna (Amphipoda)</p>
+</div>
+</div>
 
 
 

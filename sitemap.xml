@@ -1,67 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://zzzhehao.github.io/ALONGate_Project/chapter/impact/collaborations.html</loc>
-    <lastmod>2026-11-11T10:59:08.748Z</lastmod>
-  </url>
-  <url>
-    <loc>https://zzzhehao.github.io/ALONGate_Project/chapter/project/team/anne-nina_loerz.html</loc>
-    <lastmod>2026-11-11T11:03:54.313Z</lastmod>
-  </url>
-  <url>
-    <loc>https://zzzhehao.github.io/ALONGate_Project/chapter/project/team/saskia_brix.html</loc>
-    <lastmod>2026-11-11T11:03:31.730Z</lastmod>
-  </url>
-  <url>
-    <loc>https://zzzhehao.github.io/ALONGate_Project/chapter/project/team/carolin_uhlir.html</loc>
-    <lastmod>2026-11-11T11:04:14.669Z</lastmod>
-  </url>
-  <url>
-    <loc>https://zzzhehao.github.io/ALONGate_Project/chapter/project/vision.html</loc>
-    <lastmod>2026-11-11T08:14:01.875Z</lastmod>
-  </url>
-  <url>
-    <loc>https://zzzhehao.github.io/ALONGate_Project/chapter/research/blos.html</loc>
-    <lastmod>2026-11-11T08:53:31.308Z</lastmod>
-  </url>
-  <url>
-    <loc>https://zzzhehao.github.io/ALONGate_Project/chapter/research/new-old-isopods.html</loc>
-    <lastmod>2026-11-11T11:04:47.398Z</lastmod>
-  </url>
-  <url>
-    <loc>https://zzzhehao.github.io/ALONGate_Project/chapter/research/cumacean-key.html</loc>
-    <lastmod>2026-11-11T11:07:04.759Z</lastmod>
-  </url>
-  <url>
     <loc>https://zzzhehao.github.io/ALONGate_Project/index.html</loc>
-    <lastmod>2026-11-11T11:09:43.756Z</lastmod>
+    <lastmod>2026-11-15T21:36:22.016Z</lastmod>
   </url>
   <url>
     <loc>https://zzzhehao.github.io/ALONGate_Project/chapter/research/kohlenbach-talk.html</loc>
-    <lastmod>2026-11-11T11:11:11.627Z</lastmod>
+    <lastmod>2026-11-15T21:35:34.090Z</lastmod>
   </url>
   <url>
-    <loc>https://zzzhehao.github.io/ALONGate_Project/chapter/research/boxcorer.html</loc>
-    <lastmod>2026-11-11T11:04:55.294Z</lastmod>
+    <loc>https://zzzhehao.github.io/ALONGate_Project/chapter/research/benthic-survey.html</loc>
+    <lastmod>2026-11-15T21:35:12.744Z</lastmod>
   </url>
   <url>
-    <loc>https://zzzhehao.github.io/ALONGate_Project/chapter/project/team.html</loc>
-    <lastmod>2026-11-11T11:03:23.687Z</lastmod>
+    <loc>https://zzzhehao.github.io/ALONGate_Project/chapter/project/vision.html</loc>
+    <lastmod>2026-11-15T22:51:38.577Z</lastmod>
   </url>
   <url>
-    <loc>https://zzzhehao.github.io/ALONGate_Project/chapter/project/team/zhehao_hu.html</loc>
-    <lastmod>2026-11-11T11:04:21.286Z</lastmod>
+    <loc>https://zzzhehao.github.io/ALONGate_Project/chapter/project/team/saskia_brix.html</loc>
+    <lastmod>2026-11-15T01:37:54.073Z</lastmod>
   </url>
   <url>
     <loc>https://zzzhehao.github.io/ALONGate_Project/chapter/project/team/lilian_boehringer.html</loc>
-    <lastmod>2026-11-11T11:04:02.462Z</lastmod>
+    <lastmod>2026-11-15T10:10:50.522Z</lastmod>
   </url>
   <url>
     <loc>https://zzzhehao.github.io/ALONGate_Project/chapter/project/team/hauke_pape.html</loc>
-    <lastmod>2026-11-11T11:03:42.971Z</lastmod>
+    <lastmod>2026-11-13T16:04:34.899Z</lastmod>
+  </url>
+  <url>
+    <loc>https://zzzhehao.github.io/ALONGate_Project/chapter/project/team/augustina_loewenstein.html</loc>
+    <lastmod>2026-11-15T01:42:07.562Z</lastmod>
+  </url>
+  <url>
+    <loc>https://zzzhehao.github.io/ALONGate_Project/chapter/project/team.html</loc>
+    <lastmod>2026-11-15T21:45:24.209Z</lastmod>
   </url>
   <url>
     <loc>https://zzzhehao.github.io/ALONGate_Project/chapter/impact/workshops.html</loc>
-    <lastmod>2026-11-11T11:02:21.482Z</lastmod>
+    <lastmod>2026-11-15T21:34:54.582Z</lastmod>
+  </url>
+  <url>
+    <loc>https://zzzhehao.github.io/ALONGate_Project/chapter/impact/collaborations.html</loc>
+    <lastmod>2026-11-15T21:34:48.447Z</lastmod>
+  </url>
+  <url>
+    <loc>https://zzzhehao.github.io/ALONGate_Project/chapter/project/expeditions.html</loc>
+    <lastmod>2026-11-15T21:34:22.804Z</lastmod>
+  </url>
+  <url>
+    <loc>https://zzzhehao.github.io/ALONGate_Project/chapter/project/team/anne-nina_loerz.html</loc>
+    <lastmod>2026-11-13T15:36:59.608Z</lastmod>
+  </url>
+  <url>
+    <loc>https://zzzhehao.github.io/ALONGate_Project/chapter/project/team/carolin_uhlir.html</loc>
+    <lastmod>2026-11-15T01:39:13.138Z</lastmod>
+  </url>
+  <url>
+    <loc>https://zzzhehao.github.io/ALONGate_Project/chapter/project/team/katharina_kohlenbach.html</loc>
+    <lastmod>2026-11-15T01:39:22.872Z</lastmod>
+  </url>
+  <url>
+    <loc>https://zzzhehao.github.io/ALONGate_Project/chapter/project/team/lydia_schmidt.html</loc>
+    <lastmod>2026-11-14T21:51:18.687Z</lastmod>
+  </url>
+  <url>
+    <loc>https://zzzhehao.github.io/ALONGate_Project/chapter/project/team/zhehao_hu.html</loc>
+    <lastmod>2026-11-13T15:00:16.984Z</lastmod>
+  </url>
+  <url>
+    <loc>https://zzzhehao.github.io/ALONGate_Project/chapter/research/arctic-cumacean.html</loc>
+    <lastmod>2026-11-15T21:35:06.817Z</lastmod>
+  </url>
+  <url>
+    <loc>https://zzzhehao.github.io/ALONGate_Project/chapter/research/blos.html</loc>
+    <lastmod>2026-11-15T21:37:57.772Z</lastmod>
+  </url>
+  <url>
+    <loc>https://zzzhehao.github.io/ALONGate_Project/chapter/research/new-old-isopods.html</loc>
+    <lastmod>2026-11-15T21:36:19.036Z</lastmod>
   </url>
 </urlset>
