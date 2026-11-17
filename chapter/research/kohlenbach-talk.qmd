@@ -16,7 +16,7 @@ Our results suggest differences in cryo-pelagic-benthic coupling between the yea
 
 ## Want to know more? 
 
-Our PhD student, **Katharina Kohlenbach**, will hold a presentation about this at the World Conference for Marine Biodiversity (WCMB): 
+Our PhD student, **Katharina Kohlenbach**, will give a presentation about this at the World Conference for Marine Biodiversity (WCMB): 
 
 ```{r}
 #| output: false
