@@ -16,8 +16,8 @@ website:
   site-path: ./
   description: "ALONGate Project: WCMB 2026"
   draft-mode: unlinked
-  google-analytics: "G-V4PGH0S5Q5"
-  cookie-consent: true
+  # google-analytics: "G-V4PGH0S5Q5"
+  # cookie-consent: true
 
   navbar: 
     # logo: "assets/logo/MSM145_transparent.png"
