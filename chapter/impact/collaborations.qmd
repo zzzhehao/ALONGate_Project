@@ -12,11 +12,7 @@ devtools::load_all()
 library(tidyverse)
 ```
 
-```{r}
-#| output: asis
-#| echo: false
-header_image(height_headerimage = 400, y_transform = 10) # fixing header image
-```
+
 
 Deep-sea research is built on teamwork and joint effort, we also value collaborations with a wide institution and research partners. Close to 20% of our collected specimens are loaned to our partners to foster collaboration in the research community, and bringing taxonomic expertise together. These are:
 
@@ -27,7 +23,7 @@ Deep-sea research is built on teamwork and joint effort, we also value collabora
 - [Marine & Freshwater Research Institute](https://www.hafogvatn.is/en/)
 - [Ifremer](https://www.ifremer.fr/en)
 - [GEOMAR Helmholtz-Zentrum für Ozeanforschung Kiel](https://www.geomar.de)
-- [Universität Lodz](https://www.uni.lodz.pl/en/)
+- [University of Lodz](https://www.uni.lodz.pl/en/)
 - [British Antarctic Survey](https://www.bas.ac.uk)
 
 Some of our close collaborators are:
