@@ -7,8 +7,8 @@ email: maik.wilsenack@senckenberg.de
 affiliation:
   - name: "German Centre for Marine Biodiversity Research (DZMB), Senckenberg am Meer"
     url: "https://www.senckenberg.de/en/research/institutes-overview/sam/dzmb/"
-positiion: "Electronic Engineering"
-description_short: "BLOS Design & Engineer"
+positiion: "Electronic Engineer"
+description_short: "BLOS Design & Engineering"
 profile_picture: "/assets/profile/maik_wilsenack.jpg"
 profile_picture_credit: ""
 ---
