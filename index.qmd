@@ -379,12 +379,16 @@ This project is supported by:
 
 partner_logos <- c(
     "assets/logo/senckenberg.png",
-    "assets/logo/leibniz.png"
+    "assets/logo/leibniz.png",
+    "assets/logo/dfg.png",
+    "assets/logo/bmftr.png"
 )
 
 partner_urls <- c(
     "https://www.senckenberg.de/",
-    "https://www.leibniz-gemeinschaft.de"
+    "https://www.leibniz-gemeinschaft.de",
+    "https://www.dfg.de/en",
+    "https://www.bmftr.bund.de/DE/Home/home_node.html"
 )
 
 # HTML Generation function

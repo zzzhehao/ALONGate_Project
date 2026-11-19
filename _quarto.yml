@@ -44,6 +44,8 @@ website:
             href: chapter/research/arctic-cumacean.qmd
           - text: "New and Old Isopods"
             href: chapter/research/new-old-isopods.qmd
+          - text: "Integrative Taxonomy of Sea Spiders"
+            href: chapter/research/pycno.qmd
       - text: "Impact"
         menu:
           - text: "Workshops"
