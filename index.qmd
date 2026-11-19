@@ -323,7 +323,8 @@ url.research <- c(
     "chapter/research/blos.qmd",
     "chapter/research/benthic-survey.qmd",
     "chapter/research/arctic-cumacean.qmd",
-    "chapter/research/new-old-isopods.qmd"
+    "chapter/research/new-old-isopods.qmd",
+    "chapter/research/pycno.qmd"
 )
 
 # thumbnails
@@ -331,12 +332,12 @@ thumbs.research <- c(
     "assets/img/blos_infrontof_artreef.webp",
     "assets/img/rov/benthic_survey.webp",
     "https://upload.wikimedia.org/wikipedia/commons/f/f5/Diastylis_laevis.jpg?utm_source=de.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "assets/img/Disconectes Coxalis_19122_f_V_300925.webp"
+    "assets/img/Disconectes Coxalis_19122_f_V_300925.webp",
+    "assets/img/pycno_fig1.webp"
 )
 
 cat(paste(parse_links(list(thumbs.research, url.research)), collapse = "\n\n"))
 ```
-
 
 ::: {.ctext-container-subtitle}
 Impact
