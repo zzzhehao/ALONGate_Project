@@ -1,9 +1,11 @@
 {
-  "hash": "a56fd58a645a307e6061db8a059f445e",
+  "hash": "27661e38c7fb5e133a6d71bd6bb0ccfe",
   "result": {
     "engine": "knitr",
-    "markdown": "---\ntitle: \"Crossing the North Atlantic Gateway to the Arctic Ocean\"\nmenutitle: \"Our Poster at WCMB\"\npage_editors:\n  - name: Carolin Uhlir\n  - name: Zhehao Hu\n---\n\n\n\nOur poster about ALONGate is at the session 2.8! \n\n![](/assets/poster/WCMB_2-8_Brix_etal_ALONGate_compressed.jpg)\n\n[Download the Poster (PDF)](/assets/poster/WCMB_2-8_Brix_etal_ALONGate.pdf){.btn .btn-outline-primary role='button'}\n\n\n\n\n::: {.cell}\n\n:::\n\n<hr>\n\n**Editor:** Carolin Uhlir, Zhehao Hu \n\n[&#8592; Back](../../index.qmd){.btn .btn-outline-primary role='button'}\n",
-    "supporting": [],
+    "markdown": "---\ntitle: \"Crossing the North Atlantic Gateway to the Arctic Ocean\"\nmenutitle: \"Our Poster at WCMB\"\npage_editors:\n  - name: Carolin Uhlir\n  - name: Zhehao Hu\n---\n\n\n\n\nOur poster about ALONGate is at the session 2.8! \n\n![](/assets/poster/WCMB_2-8_Brix_etal_ALONGate_compressed.jpg)\n\n[Download the Poster (PDF)](/assets/poster/WCMB_2-8_Brix_etal_ALONGate.pdf){.btn .btn-outline-primary role='button'}\n\n\n\n\n::: {.cell}\n\n:::\n\n<hr>\n\n**Editor:** Carolin Uhlir, Zhehao Hu \n\n[&#8592; Back](../../index.qmd){.btn .btn-outline-primary role='button'}\n",
+    "supporting": [
+      "wcmb-poster_files"
+    ],
     "filters": [
       "rmarkdown/pagebreak.lua"
     ],

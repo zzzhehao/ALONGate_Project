@@ -67,5 +67,5 @@ format:
 
 lightbox: true
 execute:
-  freeze: true
+  freeze: auto
   echo: false

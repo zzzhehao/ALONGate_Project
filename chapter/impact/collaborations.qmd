@@ -25,6 +25,8 @@ Deep-sea research is built on teamwork and joint effort, we also value collabora
 - [GEOMAR Helmholtz-Zentrum für Ozeanforschung Kiel](https://www.geomar.de)
 - [University of Lodz](https://www.uni.lodz.pl/en/)
 - [British Antarctic Survey](https://www.bas.ac.uk)
+- [University of Bergen (UiB)](https://www4.uib.no/en)
+- [Institute of Marine Research (IMA)](https://www4.uib.no/en)
 
 Some of our close collaborators are:
 

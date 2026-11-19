@@ -14,16 +14,6 @@ library(tidyverse)
 
 BLOS, stands for **Benthic Lander Observatory System**, is a customized system designed for data collection on the seafloor for a long period of time. 
 
-```{r}
-#| fig-cap: "Deployed BLOS around Iceland - they are recording the seafloor as you look at this!"
-leaflet(data = blospos, width = "100%") %>%
-  addProviderTiles(providers$Esri.OceanBasemap) %>%
-  addMarkers(
-    ~lon, ~lat, 
-    popup = ~popup_html
-  )
-```
-
 ## How are they built?
 
 The conceptual design of our BLOS is based on the landers originally constructed by [IFREMER](https://www.ifremer.fr/fr). The physical structure consists of stainless steel frames to mount the individual components, including the camera, energy modules, the communication and storage systems. To ensure stable deployment and long-term durability in the extreme deep-sea environment, the equipment housings are constructed from titanium, a material known for its high resistance to immense pressure and saltwater corrosion. Once deployed, the system operates autonomously, programmed to record between 60 and 160 seconds of video every 12 hours. This continuous monitoring cycle will be carried out for an entire year until the next visit to retrieve the data. 
@@ -57,6 +47,16 @@ blospos <- readr::read_delim("data/BLOS_pos.csv", delim = ",") %>% bind_cols(tib
     "<div style='text-align:center;'><img src='../../assets/img/blos_infrontof_coralreef.webp' width='250px'><br><b>Cold Water Coral Reef</b><br>An intact, lively cold-water coral reef is chosen as a comparison to the artificial reef site.</div>",
     "<div style='text-align:center;'><img src='../../assets/img/blos_infrontof_vent.webp' width='250px'><br><b>Hydrothermal Vent</b><br>As delicate and vulnerable marine habitats, hydrothermal vents are on the top list as our BLOS target.</div>"
   )))
+```
+
+```{r}
+#| fig-cap: "Deployed BLOS around Iceland - they are recording the seafloor as you look at this!"
+leaflet(data = blospos, width = "100%") %>%
+  addProviderTiles(providers$Esri.OceanBasemap) %>%
+  addMarkers(
+    ~lon, ~lat, 
+    popup = ~popup_html
+  )
 ```
 
 {{< include /partial/_footer.qmd >}}
