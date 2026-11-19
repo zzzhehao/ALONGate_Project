@@ -3,6 +3,7 @@ pagetitle: "Prof. Dr. Saskia Brix"
 name_first: Saskia
 name_last: Brix
 name_title: "Prof. Dr."
+email: saskia.brix@uni-hamburg.de
 affiliation:
   - name: "Benthic Biogeography, German Centre for Marine Biodiversity Research (DZMB), Senckenberg am Meer"
     url: "https://www.senckenberg.de/en/research/institutes-overview/sam/dzmb/sam-dzmb-sec-benthic-biogeography/"

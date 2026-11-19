@@ -83,6 +83,15 @@
   .profile-affil-link:hover {
     color: var(--accent-hover);
   }
+  .profile-email {
+    color: var(--accent-main);
+    text-decoration: underline;
+    text-decoration-color: var(--accent-main);
+    text-underline-offset: 3px;
+  }
+  .profile-email:hover {
+    color: var(--accent-hover);
+  }
   .profile-divider {
     color: var(--text-muted);
     margin: 0 5px;
@@ -93,6 +102,7 @@
     color: var(--text-muted);
     margin: 0;
     line-height: 1.5;
+    align-text: "left";
   }
 </style>
 ```
@@ -114,6 +124,7 @@ full_name  <- str_squish(paste(title, first_name, last_name))
 position   <- meta$position %||% "" 
 short_desc <- meta$description_short %||% ""
 img_path   <- meta$profile_picture %||% ""
+email <- meta$email %||% "" 
 
 # Extract credit safely (returns empty string if missing)
 credit_raw <- if (is.null(meta[["profile_picture_credit"]])) "" else meta[["profile_picture_credit"]]
@@ -145,11 +156,12 @@ html_out <- sprintf('
 <h2 class="profile-fullname">%s</h2>
 <p class="profile-position">%s</p>
 <div class="profile-affiliations">%s</div>
+<div class="profile-email"><a href="mailto:%s">%s</a></div><br>
 <p class="profile-short-desc">%s</p>
 </div>
 </div>
 ', 
-img_path, full_name, credit_html, full_name, position, affil_html, short_desc)
+img_path, full_name, credit_html, full_name, position, affil_html, email, email, short_desc)
 ```
 
 ```{r}

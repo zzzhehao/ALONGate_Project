@@ -3,6 +3,7 @@ pagetitle: "Augustina Löwenstein"
 name_first: Augustina
 name_last: Löwenstein
 name_title: ""
+email: augustina.loewenstein@studium.uni-hamburg.de
 affiliation:
   - name: "Institute of Marine Ecosystem and Fishery Science, University of Hamburg (IMF)"
     url: "https://www.biologie.uni-hamburg.de/einrichtungen/imf.html"

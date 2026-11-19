@@ -1,0 +1,15 @@
+---
+title: "Crossing the North Atlantic Gateway to the Arctic Ocean"
+menutitle: "Our Poster at WCMB"
+page_editors:
+  - name: Carolin Uhlir
+  - name: Zhehao Hu
+---
+
+Our poster about ALONGate is at the session 2.8! 
+
+![](/assets/poster/WCMB_2-8_Brix_etal_ALONGate_compressed.jpg)
+
+[Download the Poster (PDF)](/assets/poster/WCMB_2-8_Brix_etal_ALONGate.pdf){.btn .btn-outline-primary role='button'}
+
+{{< include /partial/_footer.qmd >}}

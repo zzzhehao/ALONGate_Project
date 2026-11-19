@@ -3,6 +3,7 @@ pagetitle: "Lydia Schmidt"
 name_first: Lydia
 name_last: Schmidt
 name_title: ""
+email: lydia.schmidt@studium.uni-hamburg.de
 affiliation:
   - name: "University of Hamburg"
     url: "https://www.biologie.uni-hamburg.de"

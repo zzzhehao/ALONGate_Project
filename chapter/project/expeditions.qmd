@@ -6,17 +6,18 @@ page_editors:
   - name: Saskia Brix
 ---
 
-So far we were able to go on several cruises to sample for the ALONGate project. In collaboration with AWI, we were able to establish the ALONGate transects with annual visit of Polarstern to the HAUSGARTEN LTER at Fram Strait, as well as being part of the first ArcWatch expedition. 
+So far we were able to go on several cruises to sample for the ALONGate project. In collaboration with AWI, we were able to establish the ALONGate transects with annual visit of Polarstern to the HAUSGARTEN LTER at Fram Strait, as well as being part of the first ArcWatch expedition. This year, a collaboration with Greenpeace Environmental Foundation allowed us to further complement the existing sampling location. 
 
-- PS136 (2023) HAUSGARTEN
-- PS138 (2023) ArcWatch-1
-- PS143 (2024) HAUSGARTEN
-- PS148/1 (2025) ALONGate 1
-- PS155 (2026) ALONGate 2
+- PS136 (2023) HAUSGARTEN (AWI_PS136_04)
+- PS138 (2023) ArcWatch-1 (AWI_PS138_01)
+- PS143 (2024) HAUSGARTEN (AWI_ PS143/1_01)
+- PS148/1 (2025) ALONGate 1 (AWI_PS148_05)
+- PS155 (2026) ALONGate 2 (AWI_PS155_05)
+- CE26006 (2026) Deep Arctic (GPD-2026-007)
 
-This year, we deployed the first three of our Benthic Lander Observatory System (BLOS) around Iceland, and initialized our sampling at the No. 3 (deep) transect, complementing the long-time serie of benthic sampling conducted in the northern area. 
+This year, we deployed the first three of our [Benthic Lander Observatory System (BLOS)](/chapter/research/blos.qmd) around Iceland, and initialized our sampling at the No. 3 (deep) transect, complementing the long-time serie of benthic sampling conducted in the northern area. 
 
-- MSM145 (2026) ALONGate 3, Circum-Iceland, deployment of three BLOS at natural coral reef, artificial reef at fishing closure area, and at hydrothermal vent.
+- MSM145 (2026) ALONGate 3 (BR 3843/9-1)
 
 Of course, there are more expedition planned in the future: next year, we will recover and re-deploy the three BLOS already filming in the dark deep-sea. Then in 2028, the No. 3 (deep) transect will be sampled more in detailed. 
 

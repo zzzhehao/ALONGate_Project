@@ -269,11 +269,13 @@ parse_links <- function(pmap_list) {
 #| echo: false
 # relative path to qmd file
 url.project <- c(
-    "chapter/research/kohlenbach-talk.qmd"
+    "chapter/research/kohlenbach-talk.qmd",
+    "chapter/research/wcmb-poster.qmd"
 )
 
 # thumbnails
 thumbs.project <- c(
+    "assets/logo/wcmb.webp",
     "assets/logo/wcmb.webp"
 )
 

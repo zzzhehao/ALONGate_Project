@@ -3,6 +3,7 @@ pagetitle: "Maik Wilsenack"
 name_first: Maik
 name_last: Wilsenack
 name_title: ""
+email: maik.wilsenack@senckenberg.de
 affiliation:
   - name: "German Centre for Marine Biodiversity Research (DZMB), Senckenberg am Meer"
     url: "https://www.senckenberg.de/en/research/institutes-overview/sam/dzmb/"

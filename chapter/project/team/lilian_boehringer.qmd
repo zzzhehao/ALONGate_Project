@@ -3,6 +3,7 @@ pagetitle: "Dr. Lilian Böhringer"
 name_first: Lilian
 name_last: Böhringer
 name_title: "Dr."
+email: lilian.boehringer@senckenberg.de
 affiliation:
   - name: "Benthic Biogeography, German Centre for Marine Biodiversity Research (DZMB), Senckenberg am Meer"
     url: "https://www.senckenberg.de/en/research/institutes-overview/sam/dzmb/sam-dzmb-sec-benthic-biogeography/"

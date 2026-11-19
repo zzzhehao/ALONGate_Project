@@ -3,6 +3,7 @@ pagetitle: "Hauke Pape"
 name_first: Hauke
 name_last: Pape
 name_title: ""
+email: hauke.pape@senckenberg.de
 affiliation:
   - name: "Benthic Biogeography, German Centre for Marine Biodiversity Research (DZMB), Senckenberg am Meer"
     url: "https://www.senckenberg.de/en/research/institutes-overview/sam/dzmb/sam-dzmb-sec-benthic-biogeography/"

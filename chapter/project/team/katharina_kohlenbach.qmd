@@ -3,6 +3,7 @@ pagetitle: "Katharina Kohlenbach"
 name_first: Katharina
 name_last: Kohlenbach
 name_title: ""
+email: katharina.kohlenbach@awi.de
 affiliation:
   - name: AWI
     url:

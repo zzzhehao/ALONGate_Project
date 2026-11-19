@@ -3,6 +3,7 @@ pagetitle: "Zhehao Hu"
 name_first: Zhehao
 name_last: Hu
 name_title: ""
+email: zhehao.hu@senckenberg.de
 affiliation:
   - name: "Benthic Biogeography, German Centre for Marine Biodiversity Research (DZMB), Senckenberg am Meer"
     url: "https://www.senckenberg.de/en/research/institutes-overview/sam/dzmb/sam-dzmb-sec-benthic-biogeography/"
@@ -11,7 +12,6 @@ description_short: "ROV Biological Survey, DNA Barcoding, Macrofauna (Isopoda)"
 profile_picture: "/assets/profile/zhehao_hu.jpg"
 profile_picture_credit: "Alex Ingle"
 ---
-
 
 {{< include /partial/_team_template.qmd >}}
 
