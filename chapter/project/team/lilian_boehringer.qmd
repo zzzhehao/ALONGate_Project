@@ -15,4 +15,6 @@ profile_picture_credit: ""
 
 {{< include /partial/_team_template.qmd >}}
 
+Lili is currently analyzing our data, but she will soon tell us more about herself ...
+
 {{< include /partial/_footer.qmd >}}

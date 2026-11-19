@@ -15,4 +15,6 @@ profile_picture_credit: ""
 
 {{< include /partial/_team_template.qmd >}}
 
+Hauke is currently building our BLOS, but he will soon tell us more about himself ...
+
 {{< include /partial/_footer.qmd >}}
