@@ -5,10 +5,10 @@ name_last: Kohlenbach
 name_title: ""
 email: katharina.kohlenbach@awi.de
 affiliation:
-  - name: AWI
-    url:
+  - name: Alfred-Wegner-Institut Helmholtz-Zentrum für Polar- und Meeresforschung (AWI)
+    url: "https://www.awi.de"
   - name: University of Hamburg
-    url:
+    url: "https://www.uni-hamburg.de"
 positiion: "PhD Student"
 description_short: "Benthic sampling, Macrofauna (Isopoda)"
 profile_picture: "/assets/profile/katharina_kohlenbach.jpg"
