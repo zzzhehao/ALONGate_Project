@@ -15,4 +15,8 @@ profile_picture_credit: ""
 
 {{< include /partial/_team_template.qmd >}}
 
+Augustina Löwenstein studied biology with a focus on evolutionary and marine biology at Kiel University (CAU, Bachelor’s) and the University of Vienna (Master’s). She developed a strong interest in crustacean diversity, working on different groups - from Brachyura to Notostraca - and investigated evolutionary processes and phylogeographic patterns by applying population genomic approaches.
+She is a PhD candidate at the Institute of Marine Ecosystem and Fishery Science (IMF) at Hamburg University, in cooperation with the German Centre for Marine Biodiversity Research Senckenberg (DZMB), Hamburg. Her doctoral research focuses on the diversity, biogeography, and genetic connectivity of cold-water coral-associated isopods in the deep sea, combining morphological taxonomy with molecular approaches. She works in close collaboration with the Natural History Museum Vienna (NHMW, Austria) and Earth Sciences New Zealand (ESNZ). She is a recipient of the State Graduate Funding Program Hamburg (HmbNFG).
+
+
 {{< include /partial/_footer.qmd >}}

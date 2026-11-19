@@ -15,5 +15,11 @@ profile_picture_credit: "Alex Ingle"
 
 {{< include /partial/_team_template.qmd >}}
 
+Zhehao earned his M.Sc. from the University of Hamburg and has been working in the Group Benthic Biogeography since 2025. His research career in deep-sea biology began with an international expedition to the Subantarctic and an integrative taxonomic study.
+
+His research interests lie in the fields of biogeography, ecology, and evolution, with a taxonomic focus on deep-sea isopods. He is committed to understanding the complex connections and interactions between various geological, biological, and anthropogenic processes and components in deep-sea ecosystems. To this end, he employs a wide variety of methods, ranging from traditional morphology-based taxonomy to metagenomic and proteomic approaches.
+
+Zhehao is involved in the analysis of the Deep Arctic, IceDIVA, and BIOICE projects and also participates in the ALONGate project. The focus lies on the field deployment of the ROV (Remotely Operated Vehicle), analysis of the imaging data of the BLOS (Benthic Lander Observatory System), and the benthic samples. 
+
 {{< include /partial/_footer.qmd >}}
 

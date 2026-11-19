@@ -17,4 +17,11 @@ profile_picture_credit: ""
 
 {{< include /partial/_team_template.qmd >}}
 
+I completed my Bachelor’s degree in Biology at Heinrich Heine University where I first came into contact with marine biology during an exchange semester in Tromsø, Norway. I subsequently started a Master’s degree in Marine Biology at the University of Rostock and spent a semester at Memorial University in St. John’s, Canada. For my Master’s thesis  I investigated the biodiversity of Brittle Stars in the North Atlantic with the benthic biology group. Following this I started a PhD position in collaboration with Nord University in Bodø, Norway.
+
+Living in the Arctic, I am particularly interested in the rapid environmental changes occurring both on land and in the ocean. My research focuses on brittle stars in the North Atlantic and Arctic Ocean with a special emphasis on taxonomy and population connectivity. 
+
+The sampling efforts within the ALONGate project allows me to investigate population dynamics of selected species, analyse their geographic range expansions, and gain insights into their ecology.
+
+
 {{< include /partial/_footer.qmd >}}

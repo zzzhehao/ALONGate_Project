@@ -17,4 +17,6 @@ profile_picture_credit: ""
 
 {{< include /partial/_team_template.qmd >}}
 
+Having personally experienced the Arctic as a highly dynamic and endangered region on several expeditions, I feel closely connected to its unique ecosystem. The combination of deep-sea and Arctic research fuelled my desire to conduct research in little-explored regions, leading me to start my doctoral studies with the ALONGate project (A Long-term Observatory of the North Atlantic Gateway to the Arctic). Under the supervision of Prof. Dr. Saskia Brix and Prof. Dr. Bodil Bluhm (University of Tromsø), my research examines the taxonomic and genetic diversity of boreal and Arctic deep-sea fauna and the impact of Atlantification. But before we can actually observe and describe shifts, we need to document the current status quo. My taxonomic focus here is on two representatives of benthic macro- and megafauna, the comma crustaceans (Cumacea) and sea spiders (Pantopoda). I am investigating which environmental factors influence their occurrence and how their distribution will change as a result of ocean warming by using DNA barcoding, geographic information systems (GIS), R, species distribution modelling (SDM) and supplementing my data set with publicly available data.
+
 {{< include /partial/_footer.qmd >}}

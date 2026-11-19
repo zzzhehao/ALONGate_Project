@@ -16,4 +16,13 @@ profile_picture: "/assets/profile/saskia_brix.jpg"
 
 {{< include /partial/_team_template.qmd >}}
 
+Prof. Dr. Saskia Brix is a leading deep‑sea researcher whose work reveals the hidden biodiversity of the world’s cold and remote ocean regions. Trained originally as a teacher in biology, history, and education, she later turned her curiosity toward the deep sea and completed her PhD in 2006 on the diversity and evolution of isopods—small crustaceans that play important roles in seafloor ecosystems.
+
+Her scientific journey began on the global stage through the Census of Marine Life (2000–2010), a landmark programme that brought together researchers from around the world to document life in the oceans. Since then, she has taken part in and led major international research efforts and has served as chief scientist on eight deep‑sea expeditions. Many of these missions explored the northern Atlantic and Arctic, regions that are changing rapidly and remain among the least studied on Earth.
+
+Saskia’s research combines classical taxonomy with modern genetic tools to understand how species evolve, spread, and adapt in the deep sea. Her work also connects biodiversity with ecosystem functioning, helping to explain how deep‑sea communities respond to environmental change and why they matter for the health of the planet. This integrative approach formed the basis of her habilitation at the University of Hamburg in 2021.
+
+Beyond research, she plays an active role at the interface of science and policy. She co‑leads the Marine Genetic Resources working group within the Deep Ocean Stewardship Initiative (DOSI) and contributes to international discussions on the protection of marine biodiversity in areas beyond national jurisdiction. She also supports the development of Germany’s marine research infrastructure as co‑lead of the DFG Priority Programme “Research Vessels” (SPP 2520).
+
+
 {{< include /partial/_footer.qmd >}}

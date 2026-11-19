@@ -24,6 +24,8 @@ website:
     left: 
       - text: "Our WCMB Talk"
         href: chapter/research/kohlenbach-talk.qmd
+      - text: "Our WCMB Poster"
+        href: chapter/research/wcmb-poster.qmd
       - text: "Project"
         menu:
           - text: "About"

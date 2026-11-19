@@ -17,4 +17,9 @@ profile_picture_credit: ""
 
 {{< include /partial/_team_template.qmd >}}
 
+Katharina Kohlenbach first studied Biology at Heidelberg University and then Marine Biology in Bremen. With the support of the Hector Fellow Academy, she is currently pursuing her PhD at the University of Hamburg and the Alfred Wegener Institute in Bremerhaven, focusing on the biodiversity of benthic deep-sea organisms.
+
+Her particular interest lies in deep-sea isopods—small crustaceans that brood their young in a marsupium and carry them with them. Using classical taxonomy, molecular methods, and modeling approaches, she investigates the diversity and distribution of these small (but remarkable!) organisms in the Arctic.
+
+
 {{< include /partial/_footer.qmd >}}
